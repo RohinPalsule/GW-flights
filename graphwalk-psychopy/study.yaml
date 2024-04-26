@@ -1,0 +1,297 @@
+params:
+    HRES: 1920
+    VRES: 1080
+    SCREENWIDTH: 88.6
+    IMAGE_SIZE_H: 0.5
+    IMAGE_OFFSET: 0.6
+    BUTTON_1: a
+    BUTTON_2: s
+    BUTTON_3: d
+    BUTTON_QUIT: q
+    BUTTON_NEXTPHASE: n
+    BUTTON_SCANNER: w
+    EXIT_AFTER_BREAK: false
+    FONT_SIZE: 0.065
+    TEXTBOX_WIDTH: 1.5
+graph:
+    images:
+        - alliance.jpg
+        - boulder.jpg
+        - cornwall.jpg
+        - custer.jpg
+        - delawarecity.jpg
+        - medora.jpg
+        - newport.jpg
+        - parkcity.jpg
+        - racine.jpg
+        - sitka.jpg
+        - westpalmbeach.jpg
+        - yukon.jpg
+    edges:
+        - [1,2]
+        - [2,4]
+        - [5,4]
+        - [12,4]
+        - [2,3]
+        - [3,4]
+        - [3,11]
+        - [12,11]
+        - [3,6]
+        - [6,7]
+        - [6,9]
+        - [11,9]
+        - [7,8]
+        - [9,8]
+        - [9,10]
+        - [8,10]
+    groupings:
+        '4':
+            -   - 0
+                - 2
+                - 6
+                - 10
+            -   - 1
+                - 7
+                - 8
+                - 13
+            -   - 3
+                - 4
+                - 12
+                - 14
+            -   - 5
+                - 9
+                - 11
+                - 15
+
+phases:
+    - type: StudyIntro
+      instrs:
+          - content:
+              - text: "Thank you for your participation. Please:\n• Follow the instructions for each task and try your best to perform well\n• Maximize this window and focus completely on the task without any distractions\n• DO NOT take notes during the experiment, because this interferes with our ability to accurately measure the learning process\n• DO NOT participate if you feel you cannot fully commit to these requirements"
+                pos: [0.0, 0.0]
+            button: scanner
+          - content:
+              - text: "In this experiment, you will observe pairs of objects. Your task is to memorize these pairs. Note that the pairs will repeat, and that the position of the object (left or right) in the pair does not matter. Objects are NOT paired in a meaningful way (for example based on what they are used for)."
+                pos: [0.0, 0.0]
+            button: scanner
+          - content:
+              - text: "A good strategy to remember the pairs is to try and come up with a story or image that connects the two objects. For example, if you saw the following pair of objects:"
+                pos: [0.0, 0.6]
+              - image: study_instrs_1.jpg
+                pos: [-0.5, 0.2]
+              - image: study_instrs_2.jpg
+                pos: [0.5, 0.2]
+              - text: "you may imagine holding the briefcase while wearing the red robe, or you can come up with a story in which you have to pack the robe in the briefcase for a business trip.\nLet’s practice this strategy, which you will use throughout the experiment. For each pair, try to come up with an image or story in your head that connects the two objects. You will have 1 second for each pair, so please work quickly. The story or image does not have to make sense."
+                pos: [0.0, -0.4]
+            button: scanner
+      params:
+          num_breaks: 0
+          get_ready: true
+          idle_warning: 1
+          idle_text: "Please respond within 1 second of the objects appearing. If you continue to miss trials, the experiment will end early and you will be ineligble to continue."
+      timing:
+          #total time stimulus is on the screen
+          stim: [10]
+          #blank time after stimulus but response is still allowed
+          isi: [0]
+          #blank time after response is no longer allowed
+          #iti: [1,4,4,7]
+          iti: [0]
+          #time from stimulus appearing to response being accepted
+          response_delay: [1.5]
+          #whether to end stimulus as soon as response is received
+          end_on_response: true
+      sequence:
+      - type: example
+        img0: object_068.jpg
+        img1: object_029.jpg
+        after: "Were you able to come up with a story or image connecting these items? Press '#BUTTON_1' if so, or '#BUTTON_2' if not."
+      - type: result
+        button_1: "Great! Please continue to come up with a story or image for each trial.\n\nFor example, you might imagine kicking the fire hydrant while wearing the boot."
+        button_2: "Please try to come up with a story or image for each trial.\n\nFor example, you might imagine kicking the fire hydrant while wearing the boot."
+        after: "Press '#BUTTON_1' to continue."
+      - type: example
+        img0: object_175.jpg
+        img1: object_102.jpg
+        after: "Were you able to come up with a story or image connecting these items? Press '#BUTTON_1' if so, or '#BUTTON_2' if not."
+      - type: result
+        button_1: "Great! Please continue to come up with a story or image for each trial.\n\nFor example, you might imagine waking up to the alarm clock and grabbing the umbrella on your way out of your house."
+        button_2: "Please try to come up with a story or image for each trial.\n\nFor example, you might imagine waking up to the alarm clock and grabbing the umbrella on your way out of your house."
+        after: "Press '#BUTTON_1' to continue."
+      - type: example
+        img0: object_229.jpg
+        img1: object_250.jpg
+        after: "Were you able to come up with a story or image connecting these items? Press '#BUTTON_1' if so, or '#BUTTON_2' if not."
+      - type: result
+        button_1: "Great! Please continue to come up with a story or image for each trial.\n\nFor example, you might imagine trying to break open the piggy bank with the traffic cone."
+        button_2: "Please try to come up with a story or image for each trial.\n\nFor example, you might imagine trying to break open the piggy bank with the traffic cone."
+        after: "Press '#BUTTON_1' to continue."
+    - type: StudyPractice
+      instrs:
+          - content:
+              - text: "While you are observing and memorizing each of the pairs, note that some of the images will appear rotated. For each trial, press '#BUTTON_1' if you see a rotated image, and '#BUTTON_2' if you see an upright image:"
+                pos: [0.0, 0.5]
+              - image: object_250.jpg
+                pos: [-0.5, 0.0]
+                rot: 45
+              - image: object_250.jpg
+                pos: [0.5, 0.0]
+              - text: "This is a rotated image.\nPress '#BUTTON_1'."
+                pos: [-0.0, -0.5]
+              - text: "This is an upright image.\nPress '#BUTTON_2'."
+                pos: [1.0, -0.5]
+            button: scanner
+          - content:
+              - text: 'You will have 1 second from when the objects appear to respond to each pair, so please respond quickly. If you miss several responses in a row, the experiment will quit early. However, remember that while you should be on the lookout for rotated images, it is most important that you memorize the pairs (using the strategy we practice earlier). You will NOT have to memorize the orientation of the item (in other words, you don’t have to remember if an object was rotated or upright)'
+                pos: [0.0, 0.0]
+            button: scanner
+      conclusion:
+          failed:
+              content:
+              - text: "You got #PRACTICE_SCORE out of 10 correct.\nYou need to get at least 6 correct to be eligible for the next portion. Would you like to practice one more time to qualify for the next portion?"
+                pos: [0.0, 0.0]
+              button: scanner
+              ret: repeat
+          failed_2:
+              content:
+              - text: "Thank you for your participation. Unfortunately, you do not qualify for the next portion of the experiment. Please contact the experimenter for further assistance."
+                pos: [0.0, 0.0]
+              button: scanner
+              ret: quit
+          passed:
+              content:
+              - text: "You got #PRACTICE_SCORE out of 10 correct.\nYou may also have noticed that even though you were pressing keys, the task did not respond to your button presses. Do not worry--your responses are still being recorded, so be sure to respond to every trial within the first second of the objects appearing. Again, missing too many responses will cause the experiment to end early and you will fail to receive the maximum possible compensation for this task."
+                pos: [0.0, 0.0]
+              button: scanner
+      params:
+          num_breaks: 0
+          get_ready: true
+          #TESTING: 4 FULL: 10
+          practice_trials: 10
+          rotation_chance: 0.5
+          idle_warning: 1
+          idle_text: "Please respond within 1 second of the objects appearing. If you continue to miss trials, the experiment will end early and you will be ineligble to continue."
+          correct_req: 0.6
+          images:
+            - object_029.jpg
+            - object_068.jpg
+            - object_102.jpg
+            - object_175.jpg
+            - object_229.jpg
+            - object_250.jpg
+            - object_268.jpg
+            - object_334.jpg
+      timing:
+          #total time stimulus is on the screen
+          stim: [1.5]
+          #blank time after stimulus but response is still allowed
+          isi: [0]
+          #blank time after response is no longer allowed
+          #iti: [1,4,4,7]
+          iti: [2]
+          #time from stimulus appearing to response being accepted
+          response_delay: [0.3]
+          #whether to end stimulus as soon as response is received
+          end_on_response: false
+    - type: Study
+      instrs:
+          - content:
+              - text: "You will now begin the task. Remember that you will have to:\n•Use the '#BUTTON_1' and '#BUTTON_2' keys to respond to rotated and upright images within 1 second of the objects appearing on the screen.\n•Memorize each pair of objects you encounter using the story/image strategy you practiced earlier."
+                pos: [0.0, 0.0]
+            button: scanner
+      params:
+          #rotation_chance == 0 => story mode
+          rotation_chance: 0.2
+          #BLOCKED: 4 INTERLEAVED: 1
+          #Comment to allow condition to be set on even/odd subject ID. Uncomment to force a condition.
+          edges_per_block: 1
+          #TESTING: 1 FULL: 8
+          reps_in_block: 8
+          num_breaks: 1
+          get_ready: true
+          idle_warning: 1
+          idle_text: "Please respond within 1 second of the objects appearing."
+          break_text: "Please take a short (up to 60 seconds) break. Use this time to stretch and reset. After the break, you will continue to make rotation judgments as you try to remember each pair. If you would like to resume without a break, press '#BUTTON_SCANNER'. Otherwise the screen will advance automatically after 60 seconds."
+      timing:
+          #total time stimulus is on the screen
+          stim: [1.5]
+          #blank time after stimulus but response is still allowed
+          isi: [0]
+          #blank time after response is no longer allowed
+          #iti: [1,4,4,7]
+          iti: [2]
+          #time from stimulus appearing to response being accepted
+          response_delay: [0.3]
+          #whether to end stimulus as soon as response is received
+          end_on_response: false
+    - type: Direct
+      instrs:
+          - content:
+              - text: "For the next part of this experiment, you will see an object that you studied earlier, with 3 objects below it. Use the '#BUTTON_1', '#BUTTON_2', and '#BUTTON_3' buttons on your keyboard to select the object that was directly paired with the top object during the study phase. Use '#BUTTON_1' to select the left object, '#BUTTON_2' to select the middle object, and '#BUTTON_3' to select the right object."
+                pos: [0.0, 0.0]
+            button: scanner
+      params:
+          num_breaks: 0
+          get_ready: true
+          gap_between_mirrors: 3
+          idle_warning: 1000
+      timing:
+          #total time stimulus is on the screen
+          stim: [10]
+          #blank time after stimulus but response is still allowed
+          isi: [0]
+          #blank time after response is no longer allowed
+          #iti: [1,4,4,7]
+          iti: [0]
+          #time from stimulus appearing to response being accepted
+          response_delay: [0.5]
+          #whether to end stimulus as soon as response is received
+          end_on_response: true
+    - type: Judgement
+      instrs:
+          - content:
+              - text: "You may have noticed that the object pairs you studied in the study phase were connected to one another such that one object was often paired with more than just one other object.\nIn this phase, you will be presented with three objects on the screen. Your task is to choose which one of the side objects, left or right, you think is closer to the middle object based on how the objects were indirectly associated during the study phase."
+                pos: [0.0, 0.0]
+            button: scanner
+          - content:
+              - text: "For example, if you studied the following pairs:"
+                pos: [0.0, 0.85]
+              - image: judgement_instrs_1.jpg
+                pos: [0.0, 0.5]
+              - text: "and you are shown the following:"
+                pos: [0.0, 0.2]
+              - image: judgement_instrs_2.jpg
+                pos: [0.0, -0.1]
+              - text: "You should select the umbrella as being “closer” to the robe, as the umbrella was 2 “steps” away from the robe (robe > briefcase > umbrella), whereas the clock was 3 “steps” away from the robe (robe > briefcase > umbrella > clock)."
+                pos: [0.0, -0.5]
+            button: scanner
+          - content:
+              - text: "Press '#BUTTON_1' on your keyboard if you think the center object is closer to the LEFT object, based on what you learned in the previous phase. Press '#BUTTON_2' on your keyboard if you think the object that is closer to the center object is the RIGHT object.\nIt might seem difficult and overwhelming, but trust your instincts, and do your best! Please contact the experimenter if you have any questions on this section before continuing."
+                pos: [0.0, 0.0]
+            button: scanner
+      params:
+          num_breaks: 0
+          get_ready: true
+          #TESTING: 2 FULL: 16
+          dist_perm_cnt: 16
+          gap_between_mirrors: 3
+          idle_warning: 1000
+      timing:
+          #total time stimulus is on the screen
+          stim: [10]
+          #blank time after stimulus but response is still allowed
+          isi: [0]
+          #blank time after response is no longer allowed
+          #iti: [1,4,4,7]
+          iti: [0]
+          #time from stimulus appearing to response being accepted
+          response_delay: [0.5]
+          #whether to end stimulus as soon as response is received
+          end_on_response: true
+      conclusion:
+          default:
+              content:
+              - text: "Please inform the experimenter that you have completed this portion of the experiment.\nSubject ID: #SUBJECT_ID"
+                pos: [0.0, 0.0]
+              button: none
+

@@ -1,0 +1,4168 @@
+graph:
+  distance_list:
+    1:
+      1:
+      - 2
+      2:
+      - 4
+      - 3
+      3:
+      - 5
+      - 12
+      - 11
+      - 6
+      4:
+      - 7
+      - 9
+      5:
+      - 8
+      - 10
+      6: []
+    2:
+      1:
+      - 1
+      - 4
+      - 3
+      2:
+      - 5
+      - 12
+      - 11
+      - 6
+      3:
+      - 7
+      - 9
+      4:
+      - 8
+      - 10
+      5: []
+    3:
+      1:
+      - 2
+      - 4
+      - 11
+      - 6
+      2:
+      - 1
+      - 5
+      - 12
+      - 7
+      - 9
+      3:
+      - 8
+      - 10
+      4: []
+      5: []
+    4:
+      1:
+      - 2
+      - 5
+      - 12
+      - 3
+      2:
+      - 1
+      - 11
+      - 6
+      3:
+      - 7
+      - 9
+      4:
+      - 8
+      - 10
+      5: []
+    5:
+      1:
+      - 4
+      2:
+      - 2
+      - 12
+      - 3
+      3:
+      - 1
+      - 11
+      - 6
+      4:
+      - 7
+      - 9
+      5:
+      - 8
+      - 10
+      6: []
+    6:
+      1:
+      - 3
+      - 7
+      - 9
+      2:
+      - 2
+      - 4
+      - 11
+      - 8
+      - 10
+      3:
+      - 1
+      - 5
+      - 12
+      4: []
+      5: []
+    7:
+      1:
+      - 6
+      - 8
+      2:
+      - 3
+      - 9
+      - 10
+      3:
+      - 2
+      - 4
+      - 11
+      4:
+      - 1
+      - 5
+      - 12
+      5: []
+    8:
+      1:
+      - 7
+      - 9
+      - 10
+      2:
+      - 6
+      - 11
+      3:
+      - 3
+      - 12
+      4:
+      - 4
+      - 2
+      5:
+      - 1
+      - 5
+      6: []
+    9:
+      1:
+      - 6
+      - 11
+      - 8
+      - 10
+      2:
+      - 3
+      - 12
+      - 7
+      3:
+      - 4
+      - 2
+      4:
+      - 1
+      - 5
+      5: []
+    10:
+      1:
+      - 9
+      - 8
+      2:
+      - 6
+      - 11
+      - 7
+      3:
+      - 3
+      - 12
+      4:
+      - 4
+      - 2
+      5:
+      - 1
+      - 5
+      6: []
+    11:
+      1:
+      - 3
+      - 12
+      - 9
+      2:
+      - 4
+      - 2
+      - 6
+      - 8
+      - 10
+      3:
+      - 1
+      - 5
+      - 7
+      4: []
+      5: []
+    12:
+      1:
+      - 4
+      - 11
+      2:
+      - 2
+      - 5
+      - 3
+      - 9
+      3:
+      - 1
+      - 6
+      - 8
+      - 10
+      4:
+      - 7
+      5: []
+  edges:
+  - - 1
+    - 2
+  - - 2
+    - 4
+  - - 5
+    - 4
+  - - 12
+    - 4
+  - - 2
+    - 3
+  - - 3
+    - 4
+  - - 3
+    - 11
+  - - 12
+    - 11
+  - - 3
+    - 6
+  - - 6
+    - 7
+  - - 6
+    - 9
+  - - 11
+    - 9
+  - - 7
+    - 8
+  - - 9
+    - 8
+  - - 9
+    - 10
+  - - 8
+    - 10
+  groupings:
+    '1':
+    - - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+    '4':
+    - - 0
+      - 2
+      - 6
+      - 10
+    - - 1
+      - 7
+      - 8
+      - 13
+    - - 3
+      - 4
+      - 12
+      - 14
+    - - 5
+      - 9
+      - 11
+      - 15
+  images:
+  - skates.jpg
+  - boat.jpg
+  - pawn.jpg
+  - tree.jpg
+  - picnic_basket.jpg
+  - oven.jpg
+  - rocking_chair.jpg
+  - mailbox.jpg
+  - backpack.jpg
+  - globe.jpg
+  - fan.jpg
+  - cake.jpg
+  nodes:
+  - backpack.jpg
+  - picnic_basket.jpg
+  - oven.jpg
+  - boat.jpg
+  - cake.jpg
+  - skates.jpg
+  - tree.jpg
+  - fan.jpg
+  - pawn.jpg
+  - globe.jpg
+  - mailbox.jpg
+  - rocking_chair.jpg
+  triad_list:
+    2,3:
+    - &id001
+      - 4
+      - 1
+      - 5
+    - - 4
+      - 1
+      - 12
+    - &id026
+      - 4
+      - 1
+      - 11
+    - - 4
+      - 1
+      - 6
+    - - 3
+      - 1
+      - 5
+    - - 3
+      - 1
+      - 12
+    - - 3
+      - 1
+      - 11
+    - - 3
+      - 1
+      - 6
+    - - 5
+      - 2
+      - 7
+    - - 5
+      - 2
+      - 9
+    - - 12
+      - 2
+      - 7
+    - &id092
+      - 12
+      - 2
+      - 9
+    - - 11
+      - 2
+      - 7
+    - - 11
+      - 2
+      - 9
+    - - 6
+      - 2
+      - 7
+    - &id027
+      - 6
+      - 2
+      - 9
+    - - 1
+      - 3
+      - 8
+    - - 1
+      - 3
+      - 10
+    - - 5
+      - 3
+      - 8
+    - - 5
+      - 3
+      - 10
+    - - 12
+      - 3
+      - 8
+    - - 12
+      - 3
+      - 10
+    - - 7
+      - 3
+      - 8
+    - - 7
+      - 3
+      - 10
+    - - 9
+      - 3
+      - 8
+    - - 9
+      - 3
+      - 10
+    - - 1
+      - 4
+      - 7
+    - - 1
+      - 4
+      - 9
+    - - 11
+      - 4
+      - 7
+    - &id068
+      - 11
+      - 4
+      - 9
+    - &id011
+      - 6
+      - 4
+      - 7
+    - - 6
+      - 4
+      - 9
+    - - 2
+      - 5
+      - 1
+    - - 2
+      - 5
+      - 11
+    - - 2
+      - 5
+      - 6
+    - - 12
+      - 5
+      - 1
+    - - 12
+      - 5
+      - 11
+    - - 12
+      - 5
+      - 6
+    - - 3
+      - 5
+      - 1
+    - - 3
+      - 5
+      - 11
+    - - 3
+      - 5
+      - 6
+    - - 2
+      - 6
+      - 1
+    - - 2
+      - 6
+      - 5
+    - - 2
+      - 6
+      - 12
+    - - 4
+      - 6
+      - 1
+    - - 4
+      - 6
+      - 5
+    - - 4
+      - 6
+      - 12
+    - - 11
+      - 6
+      - 1
+    - - 11
+      - 6
+      - 5
+    - - 11
+      - 6
+      - 12
+    - - 8
+      - 6
+      - 1
+    - - 8
+      - 6
+      - 5
+    - - 8
+      - 6
+      - 12
+    - - 10
+      - 6
+      - 1
+    - - 10
+      - 6
+      - 5
+    - - 10
+      - 6
+      - 12
+    - - 3
+      - 7
+      - 2
+    - - 3
+      - 7
+      - 4
+    - - 3
+      - 7
+      - 11
+    - - 9
+      - 7
+      - 2
+    - - 9
+      - 7
+      - 4
+    - - 9
+      - 7
+      - 11
+    - - 10
+      - 7
+      - 2
+    - - 10
+      - 7
+      - 4
+    - - 10
+      - 7
+      - 11
+    - - 6
+      - 8
+      - 3
+    - &id059
+      - 6
+      - 8
+      - 12
+    - - 11
+      - 8
+      - 3
+    - - 11
+      - 8
+      - 12
+    - - 3
+      - 9
+      - 4
+    - - 3
+      - 9
+      - 2
+    - - 12
+      - 9
+      - 4
+    - - 12
+      - 9
+      - 2
+    - - 7
+      - 9
+      - 4
+    - - 7
+      - 9
+      - 2
+    - &id084
+      - 6
+      - 10
+      - 3
+    - - 6
+      - 10
+      - 12
+    - - 11
+      - 10
+      - 3
+    - - 11
+      - 10
+      - 12
+    - - 7
+      - 10
+      - 3
+    - - 7
+      - 10
+      - 12
+    - - 4
+      - 11
+      - 1
+    - - 4
+      - 11
+      - 5
+    - &id093
+      - 4
+      - 11
+      - 7
+    - &id003
+      - 2
+      - 11
+      - 1
+    - - 2
+      - 11
+      - 5
+    - - 2
+      - 11
+      - 7
+    - - 6
+      - 11
+      - 1
+    - - 6
+      - 11
+      - 5
+    - &id074
+      - 6
+      - 11
+      - 7
+    - - 8
+      - 11
+      - 1
+    - &id085
+      - 8
+      - 11
+      - 5
+    - &id008
+      - 8
+      - 11
+      - 7
+    - &id054
+      - 10
+      - 11
+      - 1
+    - - 10
+      - 11
+      - 5
+    - - 10
+      - 11
+      - 7
+    - - 2
+      - 12
+      - 1
+    - &id079
+      - 2
+      - 12
+      - 6
+    - - 2
+      - 12
+      - 8
+    - - 2
+      - 12
+      - 10
+    - &id062
+      - 5
+      - 12
+      - 1
+    - - 5
+      - 12
+      - 6
+    - - 5
+      - 12
+      - 8
+    - - 5
+      - 12
+      - 10
+    - - 3
+      - 12
+      - 1
+    - - 3
+      - 12
+      - 6
+    - - 3
+      - 12
+      - 8
+    - - 3
+      - 12
+      - 10
+    - - 9
+      - 12
+      - 1
+    - - 9
+      - 12
+      - 6
+    - - 9
+      - 12
+      - 8
+    - - 9
+      - 12
+      - 10
+    2,4:
+    - - 4
+      - 1
+      - 7
+    - - 4
+      - 1
+      - 9
+    - - 3
+      - 1
+      - 7
+    - &id071
+      - 3
+      - 1
+      - 9
+    - - 5
+      - 2
+      - 8
+    - - 5
+      - 2
+      - 10
+    - - 12
+      - 2
+      - 8
+    - - 12
+      - 2
+      - 10
+    - - 11
+      - 2
+      - 8
+    - &id073
+      - 11
+      - 2
+      - 10
+    - &id096
+      - 6
+      - 2
+      - 8
+    - &id047
+      - 6
+      - 2
+      - 10
+    - &id095
+      - 1
+      - 4
+      - 8
+    - - 1
+      - 4
+      - 10
+    - &id065
+      - 11
+      - 4
+      - 8
+    - &id061
+      - 11
+      - 4
+      - 10
+    - - 6
+      - 4
+      - 8
+    - - 6
+      - 4
+      - 10
+    - - 2
+      - 5
+      - 7
+    - - 2
+      - 5
+      - 9
+    - - 12
+      - 5
+      - 7
+    - - 12
+      - 5
+      - 9
+    - &id045
+      - 3
+      - 5
+      - 7
+    - &id064
+      - 3
+      - 5
+      - 9
+    - - 3
+      - 7
+      - 1
+    - - 3
+      - 7
+      - 5
+    - - 3
+      - 7
+      - 12
+    - - 9
+      - 7
+      - 1
+    - &id019
+      - 9
+      - 7
+      - 5
+    - - 9
+      - 7
+      - 12
+    - - 10
+      - 7
+      - 1
+    - - 10
+      - 7
+      - 5
+    - - 10
+      - 7
+      - 12
+    - - 6
+      - 8
+      - 4
+    - - 6
+      - 8
+      - 2
+    - &id043
+      - 11
+      - 8
+      - 4
+    - &id012
+      - 11
+      - 8
+      - 2
+    - - 3
+      - 9
+      - 1
+    - - 3
+      - 9
+      - 5
+    - - 12
+      - 9
+      - 1
+    - &id035
+      - 12
+      - 9
+      - 5
+    - - 7
+      - 9
+      - 1
+    - &id094
+      - 7
+      - 9
+      - 5
+    - - 6
+      - 10
+      - 4
+    - &id004
+      - 6
+      - 10
+      - 2
+    - &id090
+      - 11
+      - 10
+      - 4
+    - - 11
+      - 10
+      - 2
+    - - 7
+      - 10
+      - 4
+    - - 7
+      - 10
+      - 2
+    - - 2
+      - 12
+      - 7
+    - - 5
+      - 12
+      - 7
+    - - 3
+      - 12
+      - 7
+    - - 9
+      - 12
+      - 7
+    2,5:
+    - &id013
+      - 4
+      - 1
+      - 8
+    - &id050
+      - 4
+      - 1
+      - 10
+    - - 3
+      - 1
+      - 8
+    - - 3
+      - 1
+      - 10
+    - &id051
+      - 2
+      - 5
+      - 8
+    - - 2
+      - 5
+      - 10
+    - &id083
+      - 12
+      - 5
+      - 8
+    - &id007
+      - 12
+      - 5
+      - 10
+    - &id030
+      - 3
+      - 5
+      - 8
+    - &id009
+      - 3
+      - 5
+      - 10
+    - &id015
+      - 6
+      - 8
+      - 1
+    - - 6
+      - 8
+      - 5
+    - &id055
+      - 11
+      - 8
+      - 1
+    - &id021
+      - 11
+      - 8
+      - 5
+    - &id066
+      - 6
+      - 10
+      - 1
+    - &id070
+      - 6
+      - 10
+      - 5
+    - &id006
+      - 11
+      - 10
+      - 1
+    - &id014
+      - 11
+      - 10
+      - 5
+    - &id080
+      - 7
+      - 10
+      - 1
+    - &id046
+      - 7
+      - 10
+      - 5
+    3,4:
+    - &id010
+      - 5
+      - 1
+      - 7
+    - &id076
+      - 5
+      - 1
+      - 9
+    - - 12
+      - 1
+      - 7
+    - - 12
+      - 1
+      - 9
+    - - 11
+      - 1
+      - 7
+    - - 11
+      - 1
+      - 9
+    - - 6
+      - 1
+      - 7
+    - - 6
+      - 1
+      - 9
+    - - 7
+      - 2
+      - 8
+    - - 7
+      - 2
+      - 10
+    - - 9
+      - 2
+      - 8
+    - &id029
+      - 9
+      - 2
+      - 10
+    - - 7
+      - 4
+      - 8
+    - &id002
+      - 7
+      - 4
+      - 10
+    - &id040
+      - 9
+      - 4
+      - 8
+    - - 9
+      - 4
+      - 10
+    - &id025
+      - 1
+      - 5
+      - 7
+    - - 1
+      - 5
+      - 9
+    - - 11
+      - 5
+      - 7
+    - &id049
+      - 11
+      - 5
+      - 9
+    - &id042
+      - 6
+      - 5
+      - 7
+    - - 6
+      - 5
+      - 9
+    - - 2
+      - 7
+      - 1
+    - - 2
+      - 7
+      - 5
+    - - 2
+      - 7
+      - 12
+    - &id087
+      - 4
+      - 7
+      - 1
+    - &id056
+      - 4
+      - 7
+      - 5
+    - - 4
+      - 7
+      - 12
+    - &id033
+      - 11
+      - 7
+      - 1
+    - - 11
+      - 7
+      - 5
+    - &id078
+      - 11
+      - 7
+      - 12
+    - - 3
+      - 8
+      - 4
+    - - 3
+      - 8
+      - 2
+    - - 12
+      - 8
+      - 4
+    - - 12
+      - 8
+      - 2
+    - &id077
+      - 4
+      - 9
+      - 1
+    - &id072
+      - 4
+      - 9
+      - 5
+    - - 2
+      - 9
+      - 1
+    - - 2
+      - 9
+      - 5
+    - - 3
+      - 10
+      - 4
+    - - 3
+      - 10
+      - 2
+    - &id034
+      - 12
+      - 10
+      - 4
+    - - 12
+      - 10
+      - 2
+    - &id037
+      - 1
+      - 12
+      - 7
+    - - 6
+      - 12
+      - 7
+    - - 8
+      - 12
+      - 7
+    - - 10
+      - 12
+      - 7
+    3,5:
+    - &id031
+      - 5
+      - 1
+      - 8
+    - &id016
+      - 5
+      - 1
+      - 10
+    - &id089
+      - 12
+      - 1
+      - 8
+    - - 12
+      - 1
+      - 10
+    - &id086
+      - 11
+      - 1
+      - 8
+    - &id067
+      - 11
+      - 1
+      - 10
+    - &id041
+      - 6
+      - 1
+      - 8
+    - &id039
+      - 6
+      - 1
+      - 10
+    - &id024
+      - 1
+      - 5
+      - 8
+    - - 1
+      - 5
+      - 10
+    - &id058
+      - 11
+      - 5
+      - 8
+    - &id053
+      - 11
+      - 5
+      - 10
+    - &id028
+      - 6
+      - 5
+      - 8
+    - &id036
+      - 6
+      - 5
+      - 10
+    - &id018
+      - 3
+      - 8
+      - 1
+    - - 3
+      - 8
+      - 5
+    - - 12
+      - 8
+      - 1
+    - - 12
+      - 8
+      - 5
+    - - 3
+      - 10
+      - 1
+    - &id052
+      - 3
+      - 10
+      - 5
+    - &id032
+      - 12
+      - 10
+      - 1
+    - &id063
+      - 12
+      - 10
+      - 5
+    4,5:
+    - &id082
+      - 7
+      - 1
+      - 8
+    - &id022
+      - 7
+      - 1
+      - 10
+    - &id020
+      - 9
+      - 1
+      - 8
+    - &id057
+      - 9
+      - 1
+      - 10
+    - &id038
+      - 7
+      - 5
+      - 8
+    - &id017
+      - 7
+      - 5
+      - 10
+    - &id075
+      - 9
+      - 5
+      - 8
+    - &id005
+      - 9
+      - 5
+      - 10
+    - &id044
+      - 4
+      - 8
+      - 1
+    - &id060
+      - 4
+      - 8
+      - 5
+    - &id091
+      - 2
+      - 8
+      - 1
+    - &id023
+      - 2
+      - 8
+      - 5
+    - &id081
+      - 4
+      - 10
+      - 1
+    - &id069
+      - 4
+      - 10
+      - 5
+    - &id048
+      - 2
+      - 10
+      - 1
+    - &id088
+      - 2
+      - 10
+      - 5
+params:
+  BUTTON_1: a
+  BUTTON_2: s
+  BUTTON_3: d
+  BUTTON_NEXTPHASE: n
+  BUTTON_QUIT: q
+  BUTTON_SCANNER: w
+  EXIT_AFTER_BREAK: false
+  FONT_SIZE: 0.065
+  HRES: 1920
+  IMAGE_OFFSET: 0.6
+  IMAGE_SIZE_H: 0.5
+  SCREENWIDTH: 88.6
+  TEXTBOX_WIDTH: 1.5
+  VRES: 1080
+phases:
+- instrs:
+  - button: scanner
+    content:
+    - pos:
+      - 0.0
+      - 0.0
+      text: "Thank you for your participation. Please:\n\u2022 Follow the instructions\
+        \ for each task and try your best to perform well\n\u2022 Maximize this window\
+        \ and focus completely on the task without any distractions\n\u2022 DO NOT\
+        \ take notes during the experiment, because this interferes with our ability\
+        \ to accurately measure the learning process\n\u2022 DO NOT participate if\
+        \ you feel you cannot fully commit to these requirements"
+  - button: scanner
+    content:
+    - pos:
+      - 0.0
+      - 0.0
+      text: In this experiment, you will observe pairs of objects. Your task is to
+        memorize these pairs. Note that the pairs will repeat, and that the position
+        of the object (left or right) in the pair does not matter. Objects are NOT
+        paired in a meaningful way (for example based on what they are used for).
+  - button: scanner
+    content:
+    - pos:
+      - 0.0
+      - 0.6
+      text: 'A good strategy to remember the pairs is to try and come up with a story
+        or image that connects the two objects. For example, if you saw the following
+        pair of objects:'
+    - image: study_instrs_1.jpg
+      pos:
+      - -0.5
+      - 0.2
+      rot: 0
+      size: 0.5
+    - image: study_instrs_2.jpg
+      pos:
+      - 0.5
+      - 0.2
+      rot: 0
+      size: 0.5
+    - pos:
+      - 0.0
+      - -0.4
+      text: "you may imagine holding the briefcase while wearing the red robe, or\
+        \ you can come up with a story in which you have to pack the robe in the briefcase\
+        \ for a business trip.\nLet\u2019s practice this strategy, which you will\
+        \ use throughout the experiment. For each pair, try to come up with an image\
+        \ or story in your head that connects the two objects. You will have 1 second\
+        \ for each pair, so please work quickly. The story or image does not have\
+        \ to make sense."
+  params:
+    get_ready: true
+    idle_text: Please respond within 1 second of the objects appearing. If you continue
+      to miss trials, the experiment will end early and you will be ineligble to continue.
+    idle_warning: 1
+    num_breaks: 0
+  repeat_count: 1
+  sequence:
+  - after: Were you able to come up with a story or image connecting these items?
+      Press '#BUTTON_1' if so, or '#BUTTON_2' if not.
+    img0: object_068.jpg
+    img1: object_029.jpg
+    result:
+      choice_timestamp: 1.565865375000044
+      key_pressed: -1
+      response_timestamp: -1
+      trial_timestamp: 0.06258824999997614
+    type: example
+  - after: Press '#BUTTON_1' to continue.
+    button_1: 'Great! Please continue to come up with a story or image for each trial.
+
+
+      For example, you might imagine kicking the fire hydrant while wearing the boot.'
+    button_2: 'Please try to come up with a story or image for each trial.
+
+
+      For example, you might imagine kicking the fire hydrant while wearing the boot.'
+    result:
+      choice_timestamp: 14.652729625000006
+      key_pressed: a
+      response_timestamp: 18.046169332999966
+      trial_timestamp: 13.148796625000045
+    type: result
+  - after: Were you able to come up with a story or image connecting these items?
+      Press '#BUTTON_1' if so, or '#BUTTON_2' if not.
+    img0: object_175.jpg
+    img1: object_102.jpg
+    result:
+      choice_timestamp: 19.673733500000026
+      key_pressed: a
+      response_timestamp: 19.823650415999964
+      trial_timestamp: 18.16996933300004
+    type: example
+  - after: Press '#BUTTON_1' to continue.
+    button_1: 'Great! Please continue to come up with a story or image for each trial.
+
+
+      For example, you might imagine waking up to the alarm clock and grabbing the
+      umbrella on your way out of your house.'
+    button_2: 'Please try to come up with a story or image for each trial.
+
+
+      For example, you might imagine waking up to the alarm clock and grabbing the
+      umbrella on your way out of your house.'
+    result:
+      choice_timestamp: 21.39909483300005
+      key_pressed: a
+      response_timestamp: 23.68732379100004
+      trial_timestamp: 19.89490416600006
+    type: result
+  - after: Were you able to come up with a story or image connecting these items?
+      Press '#BUTTON_1' if so, or '#BUTTON_2' if not.
+    img0: object_229.jpg
+    img1: object_250.jpg
+    result:
+      choice_timestamp: 25.316204125000013
+      key_pressed: -1
+      response_timestamp: -1
+      trial_timestamp: 23.81251312500001
+    type: example
+  - after: Press '#BUTTON_1' to continue.
+    button_1: 'Great! Please continue to come up with a story or image for each trial.
+
+
+      For example, you might imagine trying to break open the piggy bank with the
+      traffic cone.'
+    button_2: 'Please try to come up with a story or image for each trial.
+
+
+      For example, you might imagine trying to break open the piggy bank with the
+      traffic cone.'
+    result:
+      choice_timestamp: 38.403989083000056
+      key_pressed: a
+      response_timestamp: 39.99070425000002
+      trial_timestamp: 36.90023416600002
+    type: result
+  timing:
+    end_on_response: true
+    isi:
+    - 0
+    iti:
+    - 0
+    response_delay:
+    - 1.5
+    stim:
+    - 10
+  type: StudyIntro
+- conclusion:
+    done: true
+    failed:
+      button: scanner
+      content:
+      - pos:
+        - 0.0
+        - 0.0
+        text: "You got\_#PRACTICE_SCORE out of 10 correct.\nYou need to get at least\
+          \ 6 correct to be eligible for the next portion. Would you like to practice\
+          \ one more time to qualify for the next portion?"
+      ret: repeat
+    failed_2:
+      button: scanner
+      content:
+      - pos:
+        - 0.0
+        - 0.0
+        text: Thank you for your participation. Unfortunately, you do not qualify
+          for the next portion of the experiment. Please contact the experimenter
+          for further assistance.
+      ret: quit
+    passed:
+      button: scanner
+      content:
+      - pos:
+        - 0.0
+        - 0.0
+        text: "You got\_#PRACTICE_SCORE out of 10 correct.\nYou may also have noticed\
+          \ that even though you were pressing keys, the task did not respond to your\
+          \ button presses. Do not worry--your responses are still being recorded,\
+          \ so be sure to respond to\_every trial within the first second of the objects\
+          \ appearing. Again, missing too many responses will cause the experiment\
+          \ to end early and you will fail to receive the maximum possible compensation\
+          \ for this task."
+  instrs:
+  - button: scanner
+    content:
+    - pos:
+      - 0.0
+      - 0.5
+      text: 'While you are observing and memorizing each of the pairs, note that some
+        of the images will appear rotated. For each trial, press ''#BUTTON_1'' if
+        you see a rotated image, and ''#BUTTON_2'' if you see an upright image:'
+    - image: object_250.jpg
+      pos:
+      - -0.5
+      - 0.0
+      rot: 45
+      size: 0.5
+    - image: object_250.jpg
+      pos:
+      - 0.5
+      - 0.0
+      rot: 0
+      size: 0.5
+    - pos:
+      - -0.0
+      - -0.5
+      text: 'This is a rotated image.
+
+        Press ''#BUTTON_1''.'
+    - pos:
+      - 1.0
+      - -0.5
+      text: 'This is an upright image.
+
+        Press ''#BUTTON_2''.'
+  - button: scanner
+    content:
+    - pos:
+      - 0.0
+      - 0.0
+      text: "You will have 1 second from when the objects appear to respond to each\
+        \ pair, so please respond quickly. If you miss several responses in a row,\
+        \ the experiment will quit early. However, remember that while you should\
+        \ be on the lookout for rotated images, it is most important that you memorize\
+        \ the pairs (using the strategy we practice earlier). You will NOT have to\
+        \ memorize the orientation of the item (in other words, you don\u2019t have\
+        \ to remember if an object was rotated or upright)"
+  params:
+    correct_req: 0.6
+    get_ready: true
+    idle_text: Please respond within 1 second of the objects appearing. If you continue
+      to miss trials, the experiment will end early and you will be ineligble to continue.
+    idle_warning: 1
+    images:
+    - object_029.jpg
+    - object_068.jpg
+    - object_102.jpg
+    - object_175.jpg
+    - object_229.jpg
+    - object_250.jpg
+    - object_268.jpg
+    - object_334.jpg
+    num_breaks: 0
+    practice_trials: 10
+    rotation_chance: 0.5
+  repeat_count: 2
+  sequence:
+  - img0: object_029.jpg
+    img1: object_068.jpg
+    result:
+      choice_timestamp: 0.36331191699991905
+      key_pressed: -1
+      response_timestamp: -1
+      trial_timestamp: 0.0599790829999165
+    rot: -1
+    type: test
+  - img0: object_250.jpg
+    img1: object_175.jpg
+    result:
+      choice_timestamp: 7.00680695799997
+      key_pressed: s
+      response_timestamp: 7.921527957999956
+      trial_timestamp: 6.703198291999911
+    rot: 0
+    type: test
+  - img0: object_102.jpg
+    img1: object_229.jpg
+    result:
+      choice_timestamp: 10.623212207999927
+      key_pressed: s
+      response_timestamp: 11.05936820799991
+      trial_timestamp: 10.320078166999906
+    rot: 0
+    type: test
+  - img0: object_334.jpg
+    img1: object_102.jpg
+    result:
+      choice_timestamp: 14.244015082999908
+      key_pressed: a
+      response_timestamp: 14.612311957999964
+      trial_timestamp: 13.940638957999909
+    rot: -1
+    type: test
+  - img0: object_250.jpg
+    img1: object_334.jpg
+    result:
+      choice_timestamp: 17.870440791999954
+      key_pressed: s
+      response_timestamp: 17.987199999999916
+      trial_timestamp: 17.567179791999934
+    rot: 0
+    type: test
+  - img0: object_250.jpg
+    img1: object_029.jpg
+    result:
+      choice_timestamp: 21.50221554199993
+      key_pressed: s
+      response_timestamp: 21.628050832999975
+      trial_timestamp: 21.1988829579999
+    rot: 0
+    type: test
+  - img0: object_229.jpg
+    img1: object_175.jpg
+    result:
+      choice_timestamp: 25.124893541999995
+      key_pressed: a
+      response_timestamp: 25.401979249999954
+      trial_timestamp: 24.82160508300001
+    rot: -1
+    type: test
+  - img0: object_029.jpg
+    img1: object_102.jpg
+    result:
+      choice_timestamp: 28.748111582999968
+      key_pressed: s
+      response_timestamp: 29.394866624999963
+      trial_timestamp: 28.444810707999977
+    rot: 0
+    type: test
+  - img0: object_068.jpg
+    img1: object_250.jpg
+    result:
+      choice_timestamp: 32.4016892919999
+      key_pressed: a
+      response_timestamp: 32.87467870799992
+      trial_timestamp: 32.098453624999934
+    rot: -1
+    type: test
+  - img0: object_334.jpg
+    img1: object_229.jpg
+    result:
+      choice_timestamp: 36.02161479199992
+      key_pressed: s
+      response_timestamp: 36.491676457999915
+      trial_timestamp: 35.71828404199994
+    rot: 0
+    type: test
+  timing:
+    end_on_response: false
+    isi:
+    - 0
+    iti:
+    - 2
+    response_delay:
+    - 0.3
+    stim:
+    - 1.5
+  type: StudyPractice
+- instrs:
+  - button: scanner
+    content:
+    - pos:
+      - 0.0
+      - 0.0
+      text: "You will now begin the task. Remember that you will have to:\n\u2022\
+        Use the '#BUTTON_1' and '#BUTTON_2' keys to respond to rotated and upright\
+        \ images within 1 second of the objects appearing on the screen.\n\u2022Memorize\
+        \ each pair of objects you encounter using the story/image strategy you practiced\
+        \ earlier."
+  params:
+    break_text: Please take a short (up to 60 seconds) break. Use this time to stretch
+      and reset. After the break, you will continue to make rotation judgments as
+      you try to remember each pair. If you would like to resume without a break,
+      press '#BUTTON_SCANNER'. Otherwise the screen will advance automatically after
+      60 seconds.
+    edges_per_block: 1
+    get_ready: true
+    idle_text: Please respond within 1 second of the objects appearing.
+    idle_warning: 1
+    num_breaks: 1
+    reps_in_block: 8
+    rotation_chance: 0.2
+  repeat_count: 1
+  sequence:
+  - edge: 10
+    mirror: true
+    result:
+      choice_timestamp: 0.3635191670000495
+      key_pressed: a
+      response_timestamp: 0.8902852920000441
+      trial_timestamp: 0.06056487500006824
+    rot: 0
+  - edge: 0
+    mirror: false
+    result:
+      choice_timestamp: 3.9493732079999972
+      key_pressed: a
+      response_timestamp: 4.736251250000009
+      trial_timestamp: 3.6462955420000753
+    rot: 0
+  - edge: 8
+    mirror: true
+    result:
+      choice_timestamp: 7.556021292000082
+      key_pressed: a
+      response_timestamp: 7.5791404579999835
+      trial_timestamp: 7.252637292000031
+    rot: 0
+  - edge: 13
+    mirror: true
+    result:
+      choice_timestamp: 11.158688208000058
+      key_pressed: a
+      response_timestamp: 11.311103917000082
+      trial_timestamp: 10.855534000000034
+    rot: 1
+  - edge: 5
+    mirror: true
+    result:
+      choice_timestamp: 14.762559125000053
+      key_pressed: s
+      response_timestamp: 15.270906416999992
+      trial_timestamp: 14.45934683300004
+    rot: -1
+  - edge: 9
+    mirror: false
+    result:
+      choice_timestamp: 18.39412616700008
+      key_pressed: a
+      response_timestamp: 18.869745542000032
+      trial_timestamp: 18.090855917
+    rot: 0
+  - edge: 6
+    mirror: true
+    result:
+      choice_timestamp: 21.978067458000055
+      key_pressed: s
+      response_timestamp: 22.265570792000062
+      trial_timestamp: 21.674885500000073
+    rot: -1
+  - edge: 9
+    mirror: false
+    result:
+      choice_timestamp: 25.60856375000003
+      key_pressed: s
+      response_timestamp: 26.179590542000028
+      trial_timestamp: 25.30525904199999
+    rot: -1
+  - edge: 0
+    mirror: false
+    result:
+      choice_timestamp: 29.194140292000043
+      key_pressed: a
+      response_timestamp: 29.72036945800005
+      trial_timestamp: 28.890919457999985
+    rot: 0
+  - edge: 13
+    mirror: true
+    result:
+      choice_timestamp: 32.79777145800006
+      key_pressed: a
+      response_timestamp: 33.208551833
+      trial_timestamp: 32.494530833
+    rot: 0
+  - edge: 11
+    mirror: true
+    result:
+      choice_timestamp: 36.402124458
+      key_pressed: s
+      response_timestamp: 36.738273708000065
+      trial_timestamp: 36.098772457999985
+    rot: -1
+  - edge: 15
+    mirror: false
+    result:
+      choice_timestamp: 40.014766708000025
+      key_pressed: a
+      response_timestamp: 40.847300958000005
+      trial_timestamp: 39.71159279200003
+    rot: 0
+  - edge: 12
+    mirror: false
+    result:
+      choice_timestamp: 43.62288679200003
+      key_pressed: a
+      response_timestamp: 44.519997042
+      trial_timestamp: 43.31950487500001
+    rot: 0
+  - edge: 0
+    mirror: true
+    result:
+      choice_timestamp: 47.20917866700006
+      key_pressed: s
+      response_timestamp: 47.51809433300002
+      trial_timestamp: 46.90614395800003
+    rot: 0
+  - edge: 1
+    mirror: false
+    result:
+      choice_timestamp: 50.81504195800005
+      key_pressed: s
+      response_timestamp: 51.25788495800009
+      trial_timestamp: 50.51176370799999
+    rot: 0
+  - edge: 11
+    mirror: false
+    result:
+      choice_timestamp: 54.42003945800002
+      key_pressed: s
+      response_timestamp: 54.82192537499998
+      trial_timestamp: 54.11679708300005
+    rot: 0
+  - edge: 14
+    mirror: true
+    result:
+      choice_timestamp: 58.02498579200005
+      key_pressed: s
+      response_timestamp: 58.40976362499998
+      trial_timestamp: 57.721639708
+    rot: 0
+  - edge: 12
+    mirror: true
+    result:
+      choice_timestamp: 61.63409741700002
+      key_pressed: s
+      response_timestamp: 62.30957270800002
+      trial_timestamp: 61.33086483300008
+    rot: 0
+  - edge: 1
+    mirror: true
+    result:
+      choice_timestamp: 65.240953375
+      key_pressed: s
+      response_timestamp: 65.69661025000005
+      trial_timestamp: 64.93769545800001
+    rot: 0
+  - edge: 10
+    mirror: true
+    result:
+      choice_timestamp: 68.87014695800008
+      key_pressed: s
+      response_timestamp: 69.30952304200002
+      trial_timestamp: 68.56685104200005
+    rot: 0
+  - edge: 15
+    mirror: false
+    result:
+      choice_timestamp: 72.48053058300002
+      key_pressed: s
+      response_timestamp: 72.99646604200007
+      trial_timestamp: 72.17720733300007
+    rot: 0
+  - edge: 1
+    mirror: false
+    result:
+      choice_timestamp: 76.08755133300008
+      key_pressed: s
+      response_timestamp: 76.50635912500002
+      trial_timestamp: 75.78416820799998
+    rot: 0
+  - edge: 15
+    mirror: false
+    result:
+      choice_timestamp: 79.67251029200008
+      key_pressed: s
+      response_timestamp: 80.07713779200003
+      trial_timestamp: 79.36939366700005
+    rot: 0
+  - edge: 8
+    mirror: true
+    result:
+      choice_timestamp: 83.28148866700008
+      key_pressed: s
+      response_timestamp: 83.55812737500003
+      trial_timestamp: 82.97823808300006
+    rot: 0
+  - edge: 7
+    mirror: true
+    result:
+      choice_timestamp: 86.86785083300003
+      key_pressed: s
+      response_timestamp: 87.13100316700002
+      trial_timestamp: 86.56481437500008
+    rot: -1
+  - edge: 10
+    mirror: true
+    result:
+      choice_timestamp: 90.49794879199999
+      key_pressed: s
+      response_timestamp: 91.284747917
+      trial_timestamp: 90.19448833299998
+    rot: 0
+  - edge: 8
+    mirror: true
+    result:
+      choice_timestamp: 94.10749295800008
+      key_pressed: s
+      response_timestamp: 94.71584441700008
+      trial_timestamp: 93.80424704200004
+    rot: 0
+  - edge: 10
+    mirror: false
+    result:
+      choice_timestamp: 97.73788141700004
+      key_pressed: a
+      response_timestamp: 98.07412062499998
+      trial_timestamp: 97.43443970800001
+    rot: 1
+  - edge: 7
+    mirror: false
+    result:
+      choice_timestamp: 101.325149625
+      key_pressed: -1
+      response_timestamp: -1
+      trial_timestamp: 101.02203025000006
+    rot: 1
+  - edge: 8
+    mirror: false
+    result:
+      choice_timestamp: 107.947262292
+      key_pressed: s
+      response_timestamp: 108.10542908299999
+      trial_timestamp: 107.643984875
+    rot: 0
+  - edge: 6
+    mirror: true
+    result:
+      choice_timestamp: 111.56124433299999
+      key_pressed: s
+      response_timestamp: 111.59044275000008
+      trial_timestamp: 111.25863183299998
+    rot: 0
+  - edge: 9
+    mirror: true
+    result:
+      choice_timestamp: 115.19504858300002
+      key_pressed: s
+      response_timestamp: 115.31523770800004
+      trial_timestamp: 114.89235037499998
+    rot: -1
+  - edge: 14
+    mirror: false
+    result:
+      choice_timestamp: 118.80222924999998
+      key_pressed: a
+      response_timestamp: 118.84713183300005
+      trial_timestamp: 118.49954183300008
+    rot: 0
+  - edge: 5
+    mirror: true
+    result:
+      choice_timestamp: 122.41189433300008
+      key_pressed: s
+      response_timestamp: 122.45501854200006
+      trial_timestamp: 122.10919320800008
+    rot: 0
+  - edge: 9
+    mirror: true
+    result:
+      choice_timestamp: 126.04767204200004
+      key_pressed: s
+      response_timestamp: 126.22885654200002
+      trial_timestamp: 125.74486312500005
+    rot: 1
+  - edge: 14
+    mirror: true
+    result:
+      choice_timestamp: 129.65538337500004
+      key_pressed: s
+      response_timestamp: 129.90968820800003
+      trial_timestamp: 129.352659958
+    rot: 0
+  - edge: 15
+    mirror: true
+    result:
+      choice_timestamp: 133.24383345800004
+      key_pressed: s
+      response_timestamp: 133.31970250000006
+      trial_timestamp: 132.94124458300007
+    rot: -1
+  - edge: 14
+    mirror: true
+    result:
+      choice_timestamp: 136.85155495800007
+      key_pressed: s
+      response_timestamp: 137.06939612500003
+      trial_timestamp: 136.548817042
+    rot: 0
+  - edge: 5
+    mirror: false
+    result:
+      choice_timestamp: 140.46031433300004
+      key_pressed: s
+      response_timestamp: 140.51196979200006
+      trial_timestamp: 140.15761433300008
+    rot: 0
+  - edge: 3
+    mirror: true
+    result:
+      choice_timestamp: 144.06975175000002
+      key_pressed: s
+      response_timestamp: 144.124478125
+      trial_timestamp: 143.76708737500007
+    rot: 1
+  - edge: 1
+    mirror: true
+    result:
+      choice_timestamp: 147.679287542
+      key_pressed: s
+      response_timestamp: 147.89631658300004
+      trial_timestamp: 147.37667604199999
+    rot: 0
+  - edge: 12
+    mirror: false
+    result:
+      choice_timestamp: 151.29439470800003
+      key_pressed: s
+      response_timestamp: 151.55247025000006
+      trial_timestamp: 150.99164166700007
+    rot: 0
+  - edge: 13
+    mirror: true
+    result:
+      choice_timestamp: 154.92770845799998
+      key_pressed: s
+      response_timestamp: 155.05402308300006
+      trial_timestamp: 154.62500091700008
+    rot: 1
+  - edge: 4
+    mirror: false
+    result:
+      choice_timestamp: 158.51804908300005
+      key_pressed: a
+      response_timestamp: 158.62984029200004
+      trial_timestamp: 158.21543233300008
+    rot: 0
+  - edge: 11
+    mirror: false
+    result:
+      choice_timestamp: 162.1287259170001
+      key_pressed: s
+      response_timestamp: 162.28684312500013
+      trial_timestamp: 161.82611187499992
+    rot: 1
+  - edge: 15
+    mirror: false
+    result:
+      choice_timestamp: 165.71872875000008
+      key_pressed: a
+      response_timestamp: 165.813046042
+      trial_timestamp: 165.41607766700008
+    rot: 0
+  - edge: 12
+    mirror: false
+    result:
+      choice_timestamp: 169.3329483330001
+      key_pressed: s
+      response_timestamp: 169.37862470799996
+      trial_timestamp: 169.03025083300008
+    rot: 0
+  - edge: 3
+    mirror: false
+    result:
+      choice_timestamp: 172.94354845800012
+      key_pressed: s
+      response_timestamp: 173.36380466700007
+      trial_timestamp: 172.64084404200003
+    rot: 0
+  - edge: 14
+    mirror: false
+    result:
+      choice_timestamp: 176.55302737500006
+      key_pressed: a
+      response_timestamp: 176.834276542
+      trial_timestamp: 176.2503253750001
+    rot: 1
+  - edge: 7
+    mirror: false
+    result:
+      choice_timestamp: 180.14456599999994
+      key_pressed: a
+      response_timestamp: 180.27436208300014
+      trial_timestamp: 179.84187758300004
+    rot: 0
+  - edge: 5
+    mirror: true
+    result:
+      choice_timestamp: 183.75557883300007
+      key_pressed: a
+      response_timestamp: 183.94410333299993
+      trial_timestamp: 183.45290912500013
+    rot: 0
+  - edge: 9
+    mirror: true
+    result:
+      choice_timestamp: 187.4214917500001
+      key_pressed: s
+      response_timestamp: 187.46236520799994
+      trial_timestamp: 187.11867320800002
+    rot: 0
+  - edge: 7
+    mirror: true
+    result:
+      choice_timestamp: 191.01227770800006
+      key_pressed: s
+      response_timestamp: 191.03817166700014
+      trial_timestamp: 190.7097496670001
+    rot: 0
+  - edge: 3
+    mirror: true
+    result:
+      choice_timestamp: 194.62514154199994
+      key_pressed: s
+      response_timestamp: 194.66408491700008
+      trial_timestamp: 194.32247229199993
+    rot: -1
+  - edge: 4
+    mirror: false
+    result:
+      choice_timestamp: 198.21700591700005
+      key_pressed: s
+      response_timestamp: 198.40199133300007
+      trial_timestamp: 197.91448704200002
+    rot: 0
+  - edge: 2
+    mirror: true
+    result:
+      choice_timestamp: 201.83332454200013
+      key_pressed: s
+      response_timestamp: 201.97776895800007
+      trial_timestamp: 201.53054916700012
+    rot: 0
+  - edge: 5
+    mirror: false
+    result:
+      choice_timestamp: 205.44527633300004
+      key_pressed: s
+      response_timestamp: 205.70079250000003
+      trial_timestamp: 205.142727917
+    rot: 0
+  - edge: 12
+    mirror: true
+    result:
+      choice_timestamp: 209.06184887500012
+      key_pressed: s
+      response_timestamp: 209.15772125000012
+      trial_timestamp: 208.759268625
+    rot: 0
+  - edge: 6
+    mirror: false
+    result:
+      choice_timestamp: 212.65526387499995
+      key_pressed: s
+      response_timestamp: 212.86545975000013
+      trial_timestamp: 212.3526387500001
+    rot: 0
+  - edge: 3
+    mirror: false
+    result:
+      choice_timestamp: 216.2677235420001
+      key_pressed: s
+      response_timestamp: 216.3925119170001
+      trial_timestamp: 215.96494675000008
+    rot: 0
+  - edge: 9
+    mirror: false
+    result:
+      choice_timestamp: 219.90827912500004
+      key_pressed: s
+      response_timestamp: 220.13124500000004
+      trial_timestamp: 219.60551650000002
+    rot: 0
+  - edge: 3
+    mirror: false
+    result:
+      choice_timestamp: 223.52183749999995
+      key_pressed: s
+      response_timestamp: 223.89134775000002
+      trial_timestamp: 223.21910937500002
+    rot: -1
+  - edge: 4
+    mirror: false
+    result:
+      choice_timestamp: 227.11558687499996
+      key_pressed: s
+      response_timestamp: 227.24037041700012
+      trial_timestamp: 226.81304320799995
+    rot: -1
+  - edge: 13
+    mirror: false
+    result:
+      choice_timestamp: 230.75552770800005
+      key_pressed: a
+      response_timestamp: 230.76011725000012
+      trial_timestamp: 230.4528331250001
+    rot: 0
+  - edge: 0
+    mirror: false
+    result:
+      choice_timestamp: 251.57339575000015
+      key_pressed: s
+      response_timestamp: 252.73552708300008
+      trial_timestamp: 251.2700279170001
+    rot: 0
+  - edge: 13
+    mirror: true
+    result:
+      choice_timestamp: 255.18564425
+      key_pressed: -1
+      response_timestamp: -1
+      trial_timestamp: 254.88294129199994
+    rot: 0
+  - edge: 1
+    mirror: false
+    result:
+      choice_timestamp: 261.814761333
+      key_pressed: -1
+      response_timestamp: -1
+      trial_timestamp: 261.51155612499997
+    rot: 0
+  - edge: 6
+    mirror: false
+    result:
+      choice_timestamp: 268.42297841699997
+      key_pressed: s
+      response_timestamp: 268.512824333
+      trial_timestamp: 268.119704125
+    rot: -1
+  - edge: 2
+    mirror: true
+    result:
+      choice_timestamp: 272.0395652080001
+      key_pressed: s
+      response_timestamp: 272.0748845830001
+      trial_timestamp: 271.73675725
+    rot: 0
+  - edge: 3
+    mirror: true
+    result:
+      choice_timestamp: 275.6541896250001
+      key_pressed: s
+      response_timestamp: 275.771800042
+      trial_timestamp: 275.351419417
+    rot: 0
+  - edge: 8
+    mirror: false
+    result:
+      choice_timestamp: 279.2721835
+      key_pressed: -1
+      response_timestamp: -1
+      trial_timestamp: 278.9694917500001
+    rot: 0
+  - edge: 2
+    mirror: false
+    result:
+      choice_timestamp: 285.9023185000001
+      key_pressed: s
+      response_timestamp: 285.9775010000001
+      trial_timestamp: 285.59958466700004
+    rot: 0
+  - edge: 6
+    mirror: false
+    result:
+      choice_timestamp: 289.5246017500001
+      key_pressed: s
+      response_timestamp: 289.68737391700006
+      trial_timestamp: 289.22194108300005
+    rot: 1
+  - edge: 13
+    mirror: false
+    result:
+      choice_timestamp: 293.1383860420001
+      key_pressed: s
+      response_timestamp: 293.34237570799996
+      trial_timestamp: 292.83567933300014
+    rot: 0
+  - edge: 0
+    mirror: false
+    result:
+      choice_timestamp: 296.73569454200015
+      key_pressed: s
+      response_timestamp: 296.9509445420001
+      trial_timestamp: 296.433064542
+    rot: 1
+  - edge: 7
+    mirror: false
+    result:
+      choice_timestamp: 300.3319100420001
+      key_pressed: s
+      response_timestamp: 300.54822283299995
+      trial_timestamp: 300.0292636250001
+    rot: -1
+  - edge: 6
+    mirror: true
+    result:
+      choice_timestamp: 303.92794908299993
+      key_pressed: s
+      response_timestamp: 303.98502462500005
+      trial_timestamp: 303.62552229200014
+    rot: 0
+  - edge: 2
+    mirror: true
+    result:
+      choice_timestamp: 307.546781708
+      key_pressed: s
+      response_timestamp: 307.62781925000013
+      trial_timestamp: 307.24396716699994
+    rot: 0
+  - edge: 14
+    mirror: false
+    result:
+      choice_timestamp: 311.16303975000005
+      key_pressed: s
+      response_timestamp: 311.29871712499994
+      trial_timestamp: 310.860292417
+    rot: 1
+  - edge: 4
+    mirror: false
+    result:
+      choice_timestamp: 314.759173167
+      key_pressed: s
+      response_timestamp: 314.894646042
+      trial_timestamp: 314.456517417
+    rot: -1
+  - edge: 15
+    mirror: true
+    result:
+      choice_timestamp: 318.35545649999995
+      key_pressed: s
+      response_timestamp: 318.42949491700006
+      trial_timestamp: 318.052837208
+    rot: 0
+  - edge: 6
+    mirror: true
+    result:
+      choice_timestamp: 321.95263716700015
+      key_pressed: s
+      response_timestamp: 321.997576708
+      trial_timestamp: 321.6500813330001
+    rot: 0
+  - edge: 1
+    mirror: true
+    result:
+      choice_timestamp: 325.5947424579999
+      key_pressed: s
+      response_timestamp: 326.173407667
+      trial_timestamp: 325.29217191700013
+    rot: 0
+  - edge: 2
+    mirror: true
+    result:
+      choice_timestamp: 329.214145958
+      key_pressed: s
+      response_timestamp: 329.50839562500005
+      trial_timestamp: 328.91147920799995
+    rot: 0
+  - edge: 0
+    mirror: true
+    result:
+      choice_timestamp: 332.81239941700005
+      key_pressed: s
+      response_timestamp: 333.171427
+      trial_timestamp: 332.509629208
+    rot: 0
+  - edge: 15
+    mirror: true
+    result:
+      choice_timestamp: 336.4098543330001
+      key_pressed: s
+      response_timestamp: 336.45007775
+      trial_timestamp: 336.107262625
+    rot: 1
+  - edge: 11
+    mirror: true
+    result:
+      choice_timestamp: 340.02994175000003
+      key_pressed: s
+      response_timestamp: 340.0570956250001
+      trial_timestamp: 339.7272733330001
+    rot: 0
+  - edge: 10
+    mirror: false
+    result:
+      choice_timestamp: 343.67041270799996
+      key_pressed: s
+      response_timestamp: 343.9348191670001
+      trial_timestamp: 343.367642167
+    rot: 0
+  - edge: 5
+    mirror: false
+    result:
+      choice_timestamp: 347.287190625
+      key_pressed: s
+      response_timestamp: 347.5940423750001
+      trial_timestamp: 346.9844881250001
+    rot: 0
+  - edge: 1
+    mirror: true
+    result:
+      choice_timestamp: 350.93221395800015
+      key_pressed: s
+      response_timestamp: 351.02684
+      trial_timestamp: 350.62949745800006
+    rot: 0
+  - edge: 6
+    mirror: false
+    result:
+      choice_timestamp: 354.5295490830001
+      key_pressed: s
+      response_timestamp: 354.552888167
+      trial_timestamp: 354.22679808299995
+    rot: 0
+  - edge: 14
+    mirror: false
+    result:
+      choice_timestamp: 358.14717275
+      key_pressed: s
+      response_timestamp: 358.42076083300003
+      trial_timestamp: 357.84441883299996
+    rot: -1
+  - edge: 2
+    mirror: false
+    result:
+      choice_timestamp: 361.76846887500005
+      key_pressed: s
+      response_timestamp: 361.90032295800006
+      trial_timestamp: 361.465637
+    rot: 0
+  - edge: 11
+    mirror: true
+    result:
+      choice_timestamp: 365.38627329199994
+      key_pressed: s
+      response_timestamp: 365.50832133300014
+      trial_timestamp: 365.0834757079999
+    rot: -1
+  - edge: 10
+    mirror: true
+    result:
+      choice_timestamp: 369.0275965000001
+      key_pressed: s
+      response_timestamp: 369.07731345799994
+      trial_timestamp: 368.7249993749999
+    rot: 1
+  - edge: 2
+    mirror: false
+    result:
+      choice_timestamp: 372.6484330830001
+      key_pressed: s
+      response_timestamp: 372.8059444580001
+      trial_timestamp: 372.3457275420001
+    rot: 0
+  - edge: 9
+    mirror: false
+    result:
+      choice_timestamp: 376.29529075000005
+      key_pressed: s
+      response_timestamp: 376.5059987500001
+      trial_timestamp: 375.99245462499994
+    rot: 0
+  - edge: 11
+    mirror: true
+    result:
+      choice_timestamp: 379.94003383300014
+      key_pressed: s
+      response_timestamp: 379.96947483300005
+      trial_timestamp: 379.63735250000013
+    rot: -1
+  - edge: 8
+    mirror: true
+    result:
+      choice_timestamp: 383.56173012499994
+      key_pressed: s
+      response_timestamp: 383.58122770800014
+      trial_timestamp: 383.25903037500007
+    rot: 1
+  - edge: 4
+    mirror: true
+    result:
+      choice_timestamp: 387.164340625
+      key_pressed: s
+      response_timestamp: 387.29058029199996
+      trial_timestamp: 386.86164925
+    rot: 0
+  - edge: 0
+    mirror: true
+    result:
+      choice_timestamp: 390.76617783300003
+      key_pressed: s
+      response_timestamp: 390.84675945799995
+      trial_timestamp: 390.46351841699993
+    rot: 1
+  - edge: 11
+    mirror: false
+    result:
+      choice_timestamp: 394.38680175000013
+      key_pressed: s
+      response_timestamp: 394.48357862500006
+      trial_timestamp: 394.08398375
+    rot: 0
+  - edge: 8
+    mirror: false
+    result:
+      choice_timestamp: 398.00974387500014
+      key_pressed: s
+      response_timestamp: 398.0406968330001
+      trial_timestamp: 397.70693466700004
+    rot: 0
+  - edge: 4
+    mirror: true
+    result:
+      choice_timestamp: 401.6114492920001
+      key_pressed: s
+      response_timestamp: 401.78744058300003
+      trial_timestamp: 401.3088210000001
+    rot: 0
+  - edge: 3
+    mirror: false
+    result:
+      choice_timestamp: 405.2328963330001
+      key_pressed: s
+      response_timestamp: 405.31239804200004
+      trial_timestamp: 404.930180542
+    rot: 0
+  - edge: 13
+    mirror: false
+    result:
+      choice_timestamp: 408.8526978330001
+      key_pressed: s
+      response_timestamp: 408.96226304200013
+      trial_timestamp: 408.55002045800006
+    rot: 0
+  - edge: 7
+    mirror: false
+    result:
+      choice_timestamp: 412.480099417
+      key_pressed: s
+      response_timestamp: 412.58891437500006
+      trial_timestamp: 412.1774323750001
+    rot: 0
+  - edge: 15
+    mirror: true
+    result:
+      choice_timestamp: 416.0805727920001
+      key_pressed: s
+      response_timestamp: 416.194974667
+      trial_timestamp: 415.7779343330001
+    rot: 0
+  - edge: 14
+    mirror: true
+    result:
+      choice_timestamp: 419.70190454199997
+      key_pressed: s
+      response_timestamp: 419.83699924999996
+      trial_timestamp: 419.399195833
+    rot: 0
+  - edge: 5
+    mirror: false
+    result:
+      choice_timestamp: 423.32272516700004
+      key_pressed: s
+      response_timestamp: 423.3377619170001
+      trial_timestamp: 423.020051125
+    rot: 0
+  - edge: 13
+    mirror: false
+    result:
+      choice_timestamp: 426.94405979199996
+      key_pressed: s
+      response_timestamp: 427.0910617920001
+      trial_timestamp: 426.641465292
+    rot: 0
+  - edge: 12
+    mirror: true
+    result:
+      choice_timestamp: 430.57177812500004
+      key_pressed: s
+      response_timestamp: 430.67948775000013
+      trial_timestamp: 430.26910425000005
+    rot: 0
+  - edge: 7
+    mirror: true
+    result:
+      choice_timestamp: 434.173486875
+      key_pressed: s
+      response_timestamp: 434.2632745420001
+      trial_timestamp: 433.870846542
+    rot: 0
+  - edge: 11
+    mirror: false
+    result:
+      choice_timestamp: 437.796425583
+      key_pressed: s
+      response_timestamp: 437.9602761670001
+      trial_timestamp: 437.493790708
+    rot: 0
+  - edge: 2
+    mirror: false
+    result:
+      choice_timestamp: 441.4461880829999
+      key_pressed: s
+      response_timestamp: 441.51919829200006
+      trial_timestamp: 441.143437167
+    rot: 0
+  - edge: 12
+    mirror: false
+    result:
+      choice_timestamp: 445.07279229200003
+      key_pressed: s
+      response_timestamp: 445.2462102500001
+      trial_timestamp: 444.77010466699994
+    rot: 0
+  - edge: 7
+    mirror: true
+    result:
+      choice_timestamp: 448.6756290420001
+      key_pressed: s
+      response_timestamp: 448.883038167
+      trial_timestamp: 448.37299362499994
+    rot: 0
+  - edge: 4
+    mirror: true
+    result:
+      choice_timestamp: 452.280262083
+      key_pressed: s
+      response_timestamp: 452.387980042
+      trial_timestamp: 451.977684125
+    rot: 0
+  - edge: 10
+    mirror: false
+    result:
+      choice_timestamp: 455.92554637500007
+      key_pressed: s
+      response_timestamp: 456.10283737500004
+      trial_timestamp: 455.6227874169999
+    rot: 0
+  - edge: 0
+    mirror: true
+    result:
+      choice_timestamp: 459.53229495799997
+      key_pressed: s
+      response_timestamp: 459.6967077500001
+      trial_timestamp: 459.2295445
+    rot: 0
+  - edge: 5
+    mirror: true
+    result:
+      choice_timestamp: 463.15688150000005
+      key_pressed: s
+      response_timestamp: 463.2617815000001
+      trial_timestamp: 462.85418441699994
+    rot: 0
+  - edge: 3
+    mirror: true
+    result:
+      choice_timestamp: 466.7804718750001
+      key_pressed: s
+      response_timestamp: 466.9914384169999
+      trial_timestamp: 466.4777798330001
+    rot: 1
+  - edge: 1
+    mirror: false
+    result:
+      choice_timestamp: 470.40517287500006
+      key_pressed: s
+      response_timestamp: 470.5364904170001
+      trial_timestamp: 470.10248516699994
+    rot: 0
+  - edge: 12
+    mirror: true
+    result:
+      choice_timestamp: 474.0593496250001
+      key_pressed: s
+      response_timestamp: 474.2732517080001
+      trial_timestamp: 473.7566031670001
+    rot: 1
+  - edge: 9
+    mirror: true
+    result:
+      choice_timestamp: 477.710337042
+      key_pressed: s
+      response_timestamp: 477.782485167
+      trial_timestamp: 477.40770583300014
+    rot: 0
+  - edge: 4
+    mirror: true
+    result:
+      choice_timestamp: 481.31611191699994
+      key_pressed: s
+      response_timestamp: 481.766168375
+      trial_timestamp: 481.013406625
+    rot: 0
+  - edge: 8
+    mirror: false
+    result:
+      choice_timestamp: 484.944217125
+      key_pressed: s
+      response_timestamp: 485.00105937500007
+      trial_timestamp: 484.64149762500006
+    rot: 0
+  - edge: 10
+    mirror: false
+    result:
+      choice_timestamp: 488.59210966699993
+      key_pressed: s
+      response_timestamp: 488.65099183300003
+      trial_timestamp: 488.2893382080001
+    rot: 0
+  timing:
+    end_on_response: false
+    isi:
+    - 0
+    iti:
+    - 2
+    response_delay:
+    - 0.3
+    stim:
+    - 1.5
+  type: Study
+- instrs:
+  - button: scanner
+    content:
+    - pos:
+      - 0.0
+      - 0.0
+      text: For the next part of this experiment, you will see an object that you
+        studied earlier, with 3 objects below it. Use the '#BUTTON_1', '#BUTTON_2',
+        and '#BUTTON_3' buttons on your keyboard to select the object that was directly
+        paired with the top object during the study phase. Use '#BUTTON_1' to select
+        the left object, '#BUTTON_2' to select the middle object, and '#BUTTON_3'
+        to select the right object.
+  params:
+    gap_between_mirrors: 3
+    get_ready: true
+    idle_warning: 1000
+    num_breaks: 0
+  repeat_count: 1
+  sequence:
+  - center: 9
+    edge: 13
+    options:
+    - dist: 1
+      node: 8
+    - dist: 4
+      node: 5
+    - dist: 2
+      node: 12
+    result:
+      choice_timestamp: 0.5321528329998273
+      key_pressed: d
+      response_timestamp: 0.5894545409998955
+      trial_timestamp: 0.02882154099984291
+  - center: 4
+    edge: 2
+    options:
+    - dist: 1
+      node: 5
+    - dist: 3
+      node: 9
+    - dist: 2
+      node: 1
+    result:
+      choice_timestamp: 1.2123467909998453
+      key_pressed: d
+      response_timestamp: 1.3814669159999085
+      trial_timestamp: 0.7094587909998609
+  - center: 6
+    edge: 10
+    options:
+    - dist: 2
+      node: 11
+    - dist: 1
+      node: 9
+    - dist: 3
+      node: 12
+    result:
+      choice_timestamp: 2.0077946249998604
+      key_pressed: d
+      response_timestamp: 2.0385428329998376
+      trial_timestamp: 1.5049965829998655
+  - center: 8
+    edge: 12
+    options:
+    - dist: 3
+      node: 12
+    - dist: 2
+      node: 6
+    - dist: 1
+      node: 7
+    result:
+      choice_timestamp: 2.667521165999915
+      key_pressed: d
+      response_timestamp: 2.7074231659998986
+      trial_timestamp: 2.164619749999929
+  - center: 2
+    edge: 4
+    options:
+    - dist: 2
+      node: 5
+    - dist: 1
+      node: 3
+    - dist: 4
+      node: 8
+    result:
+      choice_timestamp: 3.3103424999999334
+      key_pressed: d
+      response_timestamp: 3.385739665999836
+      trial_timestamp: 2.8076548329997877
+  - center: 12
+    edge: 3
+    options:
+    - dist: 2
+      node: 3
+    - dist: 1
+      node: 4
+    - dist: 3
+      node: 6
+    result:
+      choice_timestamp: 3.987988290999965
+      key_pressed: d
+      response_timestamp: 4.067364832999829
+      trial_timestamp: 3.4851471659999333
+  - center: 4
+    edge: 5
+    options:
+    - dist: 2
+      node: 11
+    - dist: 3
+      node: 7
+    - dist: 1
+      node: 3
+    result:
+      choice_timestamp: 4.690890499999796
+      key_pressed: d
+      response_timestamp: 4.76950666599987
+      trial_timestamp: 4.187888499999872
+  - center: 2
+    edge: 0
+    options:
+    - dist: 4
+      node: 8
+    - dist: 1
+      node: 1
+    - dist: 3
+      node: 9
+    result:
+      choice_timestamp: 5.374593374999904
+      key_pressed: d
+      response_timestamp: 5.455532332999837
+      trial_timestamp: 4.871672040999783
+  - center: 10
+    edge: 14
+    options:
+    - dist: 1
+      node: 9
+    - dist: 2
+      node: 6
+    - dist: 3
+      node: 12
+    result:
+      choice_timestamp: 6.058947582999963
+      key_pressed: d
+      response_timestamp: 10.533618707999949
+      trial_timestamp: 5.556006874999866
+  - center: 3
+    edge: 8
+    options:
+    - dist: 3
+      node: 10
+    - dist: 2
+      node: 12
+    - dist: 1
+      node: 6
+    result:
+      choice_timestamp: 11.140477790999967
+      key_pressed: d
+      response_timestamp: 11.20120299999985
+      trial_timestamp: 10.637691332999793
+  - center: 11
+    edge: 7
+    options:
+    - dist: 1
+      node: 12
+    - dist: 3
+      node: 5
+    - dist: 2
+      node: 6
+    result:
+      choice_timestamp: 11.805861707999838
+      key_pressed: d
+      response_timestamp: 11.982217415999912
+      trial_timestamp: 11.303071540999781
+  - center: 3
+    edge: 4
+    options:
+    - dist: 2
+      node: 7
+    - dist: 1
+      node: 2
+    - dist: 3
+      node: 10
+    result:
+      choice_timestamp: 12.611638040999878
+      key_pressed: d
+      response_timestamp: 12.667204832999914
+      trial_timestamp: 12.10886879099985
+  - center: 9
+    edge: 11
+    options:
+    - dist: 3
+      node: 4
+    - dist: 1
+      node: 11
+    - dist: 2
+      node: 12
+    result:
+      choice_timestamp: 13.291211415999896
+      key_pressed: d
+      response_timestamp: 13.35910183299984
+      trial_timestamp: 12.788400082999942
+  - center: 5
+    edge: 2
+    options:
+    - dist: 1
+      node: 4
+    - dist: 2
+      node: 3
+    - dist: 5
+      node: 10
+    result:
+      choice_timestamp: 13.966221582999879
+      key_pressed: d
+      response_timestamp: 14.039203749999842
+      trial_timestamp: 13.463330957999915
+  - center: 4
+    edge: 1
+    options:
+    - dist: 4
+      node: 10
+    - dist: 1
+      node: 2
+    - dist: 2
+      node: 11
+    result:
+      choice_timestamp: 14.664521499999864
+      key_pressed: d
+      response_timestamp: 14.874093165999966
+      trial_timestamp: 14.161666165999804
+  - center: 9
+    edge: 10
+    options:
+    - dist: 1
+      node: 6
+    - dist: 4
+      node: 1
+    - dist: 2
+      node: 12
+    result:
+      choice_timestamp: 15.499456540999972
+      key_pressed: d
+      response_timestamp: 15.584682040999951
+      trial_timestamp: 14.996619665999788
+  - center: 7
+    edge: 12
+    options:
+    - dist: 2
+      node: 10
+    - dist: 1
+      node: 8
+    - dist: 3
+      node: 2
+    result:
+      choice_timestamp: 16.217205999999805
+      key_pressed: d
+      response_timestamp: 16.276025082999922
+      trial_timestamp: 15.714166707999993
+  - center: 12
+    edge: 7
+    options:
+    - dist: 2
+      node: 3
+    - dist: 4
+      node: 7
+    - dist: 1
+      node: 11
+    result:
+      choice_timestamp: 16.907964915999855
+      key_pressed: d
+      response_timestamp: 16.923239749999993
+      trial_timestamp: 16.40519137499996
+  - center: 3
+    edge: 6
+    options:
+    - dist: 3
+      node: 10
+    - dist: 2
+      node: 1
+    - dist: 1
+      node: 11
+    result:
+      choice_timestamp: 17.52782929099999
+      key_pressed: d
+      response_timestamp: 17.628019832999826
+      trial_timestamp: 17.025140790999785
+  - center: 8
+    edge: 13
+    options:
+    - dist: 2
+      node: 11
+    - dist: 3
+      node: 12
+    - dist: 1
+      node: 9
+    result:
+      choice_timestamp: 18.233804999999847
+      key_pressed: d
+      response_timestamp: 18.259089540999867
+      trial_timestamp: 17.731008957999848
+  - center: 10
+    edge: 15
+    options:
+    - dist: 2
+      node: 6
+    - dist: 1
+      node: 8
+    - dist: 3
+      node: 12
+    result:
+      choice_timestamp: 18.86450229099978
+      key_pressed: d
+      response_timestamp: 18.956155040999874
+      trial_timestamp: 18.361670540999967
+  - center: 3
+    edge: 5
+    options:
+    - dist: 3
+      node: 10
+    - dist: 2
+      node: 7
+    - dist: 1
+      node: 4
+    result:
+      choice_timestamp: 19.56205758299984
+      key_pressed: d
+      response_timestamp: 19.652043290999927
+      trial_timestamp: 19.059185540999806
+  - center: 9
+    edge: 14
+    options:
+    - dist: 2
+      node: 12
+    - dist: 1
+      node: 10
+    - dist: 3
+      node: 2
+    result:
+      choice_timestamp: 20.278502290999995
+      key_pressed: d
+      response_timestamp: 20.39028899999994
+      trial_timestamp: 19.775735457999872
+  - center: 2
+    edge: 1
+    options:
+    - dist: 2
+      node: 11
+    - dist: 3
+      node: 9
+    - dist: 1
+      node: 4
+    result:
+      choice_timestamp: 20.99777862499991
+      key_pressed: d
+      response_timestamp: 21.07501974999991
+      trial_timestamp: 20.494878624999956
+  - center: 8
+    edge: 15
+    options:
+    - dist: 1
+      node: 10
+    - dist: 3
+      node: 3
+    - dist: 2
+      node: 6
+    result:
+      choice_timestamp: 21.68163208299984
+      key_pressed: d
+      response_timestamp: 21.766846790999807
+      trial_timestamp: 21.17882620799992
+  - center: 11
+    edge: 6
+    options:
+    - dist: 3
+      node: 5
+    - dist: 1
+      node: 3
+    - dist: 2
+      node: 2
+    result:
+      choice_timestamp: 22.3736339579998
+      key_pressed: d
+      response_timestamp: 22.459946499999887
+      trial_timestamp: 21.870934915999896
+  - center: 7
+    edge: 9
+    options:
+    - dist: 2
+      node: 3
+    - dist: 1
+      node: 6
+    - dist: 4
+      node: 1
+    result:
+      choice_timestamp: 23.116810457999918
+      key_pressed: d
+      response_timestamp: 23.14608475
+      trial_timestamp: 22.61400058299978
+  - center: 11
+    edge: 11
+    options:
+    - dist: 3
+      node: 1
+    - dist: 1
+      node: 9
+    - dist: 2
+      node: 8
+    result:
+      choice_timestamp: 23.753734540999858
+      key_pressed: d
+      response_timestamp: 23.785865290999936
+      trial_timestamp: 23.250958374999982
+  - center: 4
+    edge: 3
+    options:
+    - dist: 1
+      node: 12
+    - dist: 4
+      node: 8
+    - dist: 3
+      node: 7
+    result:
+      choice_timestamp: 24.41368991599984
+      key_pressed: d
+      response_timestamp: 24.447969624999814
+      trial_timestamp: 23.91077458299992
+  - center: 6
+    edge: 9
+    options:
+    - dist: 1
+      node: 7
+    - dist: 3
+      node: 5
+    - dist: 2
+      node: 8
+    result:
+      choice_timestamp: 25.0793705829999
+      key_pressed: d
+      response_timestamp: 25.24968629099999
+      trial_timestamp: 24.57607962499992
+  - center: 1
+    edge: 0
+    options:
+    - dist: 2
+      node: 3
+    - dist: 5
+      node: 8
+    - dist: 1
+      node: 2
+    result:
+      choice_timestamp: 25.85875220799994
+      key_pressed: d
+      response_timestamp: 25.96289937499978
+      trial_timestamp: 25.355921457999784
+  - center: 6
+    edge: 8
+    options:
+    - dist: 3
+      node: 5
+    - dist: 2
+      node: 11
+    - dist: 1
+      node: 3
+    result:
+      choice_timestamp: 26.593872790999967
+      key_pressed: d
+      response_timestamp: 26.6628216659999
+      trial_timestamp: 26.09100504099979
+  timing:
+    end_on_response: true
+    isi:
+    - 0
+    iti:
+    - 0
+    response_delay:
+    - 0.5
+    stim:
+    - 10
+  type: Direct
+- conclusion:
+    default:
+      button: none
+      content:
+      - pos:
+        - 0.0
+        - 0.0
+        text: 'Please inform the experimenter that you have completed this portion
+          of the experiment.
+
+          Subject ID: #SUBJECT_ID'
+  instrs:
+  - button: scanner
+    content:
+    - pos:
+      - 0.0
+      - 0.0
+      text: 'You may have noticed that the object pairs you studied in the study phase
+        were connected to one another such that one object was often paired with more
+        than just one other object.
+
+        In this phase, you will be presented with three objects on the screen. Your
+        task is to choose which one of the side objects, left or right, you think
+        is closer to the middle object based on how the objects were indirectly associated
+        during the study phase.'
+  - button: scanner
+    content:
+    - pos:
+      - 0.0
+      - 0.85
+      text: 'For example, if you studied the following pairs:'
+    - image: judgement_instrs_1.jpg
+      pos:
+      - 0.0
+      - 0.5
+      rot: 0
+      size: 0.5
+    - pos:
+      - 0.0
+      - 0.2
+      text: 'and you are shown the following:'
+    - image: judgement_instrs_2.jpg
+      pos:
+      - 0.0
+      - -0.1
+      rot: 0
+      size: 0.5
+    - pos:
+      - 0.0
+      - -0.5
+      text: "You should select the umbrella as being \u201Ccloser\u201D to the robe,\
+        \ as the umbrella was 2 \u201Csteps\u201D away from the robe (robe > briefcase\
+        \ > umbrella), whereas the clock was 3 \u201Csteps\u201D away from the robe\
+        \ (robe > briefcase > umbrella > clock)."
+  - button: scanner
+    content:
+    - pos:
+      - 0.0
+      - 0.0
+      text: 'Press ''#BUTTON_1'' on your keyboard if you think the center object is
+        closer to the LEFT object, based on what you learned in the previous phase.
+        Press ''#BUTTON_2'' on your keyboard if you think the object that is closer
+        to the center object is the RIGHT object.
+
+        It might seem difficult and overwhelming, but trust your instincts, and do
+        your best! Please contact the experimenter if you have any questions on this
+        section before continuing.'
+  params:
+    dist_perm_cnt: 16
+    gap_between_mirrors: 3
+    get_ready: true
+    idle_warning: 1000
+    num_breaks: 0
+  repeat_count: 1
+  sequence:
+  - dist:
+    - 2
+    - 3
+    mirror: true
+    result:
+      choice_timestamp: 0.5129406670000662
+      key_pressed: d
+      response_timestamp: 1.293305417000056
+      trial_timestamp: 0.00965962500004025
+    triad: *id001
+  - dist:
+    - 3
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 1.9495895000000019
+      key_pressed: d
+      response_timestamp: 2.068600958999923
+      trial_timestamp: 1.446773500000063
+    triad: *id002
+  - dist:
+    - 2
+    - 3
+    mirror: true
+    result:
+      choice_timestamp: 2.677394250000134
+      key_pressed: d
+      response_timestamp: 2.693437000000131
+      trial_timestamp: 2.174617208999962
+    triad: *id003
+  - dist:
+    - 2
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 3.3018916670000635
+      key_pressed: d
+      response_timestamp: 3.3347388340000634
+      trial_timestamp: 2.7989105419999305
+    triad: *id004
+  - dist:
+    - 4
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 3.945638833999965
+      key_pressed: d
+      response_timestamp: 4.018386666999959
+      trial_timestamp: 3.4428674590001265
+    triad: *id005
+  - dist:
+    - 2
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 4.626568542000086
+      key_pressed: d
+      response_timestamp: 4.6924355000001015
+      trial_timestamp: 4.1238777089999985
+    triad: *id006
+  - dist:
+    - 2
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 5.303630667000107
+      key_pressed: d
+      response_timestamp: 5.579317749999973
+      trial_timestamp: 4.800936500000034
+    triad: *id007
+  - dist:
+    - 2
+    - 3
+    mirror: false
+    result:
+      choice_timestamp: 6.188755709000134
+      key_pressed: d
+      response_timestamp: 6.241529042000138
+      trial_timestamp: 5.6859874169999784
+    triad: *id008
+  - dist:
+    - 2
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 6.879405667000128
+      key_pressed: d
+      response_timestamp: 6.898286750000125
+      trial_timestamp: 6.3765300000000025
+    triad: *id009
+  - dist:
+    - 3
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 7.5096202500001255
+      key_pressed: d
+      response_timestamp: 7.611248708999938
+      trial_timestamp: 7.006841042000133
+    triad: *id010
+  - dist:
+    - 2
+    - 3
+    mirror: true
+    result:
+      choice_timestamp: 8.242064875000096
+      key_pressed: d
+      response_timestamp: 8.329273875000126
+      trial_timestamp: 7.739235624999992
+    triad: *id011
+  - dist:
+    - 2
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 8.93844945900014
+      key_pressed: d
+      response_timestamp: 9.079175042000088
+      trial_timestamp: 8.435730124999964
+    triad: *id012
+  - dist:
+    - 2
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 9.69054908399994
+      key_pressed: d
+      response_timestamp: 9.718178625000064
+      trial_timestamp: 9.187748959000146
+    triad: *id013
+  - dist:
+    - 2
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 10.327821916999937
+      key_pressed: d
+      response_timestamp: 10.39714600000002
+      trial_timestamp: 9.825189459000057
+    triad: *id014
+  - dist:
+    - 2
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 11.033626166999966
+      key_pressed: d
+      response_timestamp: 11.069374917000005
+      trial_timestamp: 10.530858125000123
+    triad: *id015
+  - dist:
+    - 3
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 11.681299500000023
+      key_pressed: d
+      response_timestamp: 11.754934209000112
+      trial_timestamp: 11.178472542000009
+    triad: *id016
+  - dist:
+    - 4
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 12.367686209000112
+      key_pressed: d
+      response_timestamp: 12.451095958999986
+      trial_timestamp: 11.864974500000017
+    triad: *id017
+  - dist:
+    - 3
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 13.061846875000128
+      key_pressed: d
+      response_timestamp: 13.130196125000111
+      trial_timestamp: 12.55902545899994
+    triad: *id018
+  - dist:
+    - 2
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 13.765822999999955
+      key_pressed: d
+      response_timestamp: 13.840120958999933
+      trial_timestamp: 13.263013709000006
+    triad: *id019
+  - dist:
+    - 4
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 14.45475158399995
+      key_pressed: d
+      response_timestamp: 14.542916249999962
+      trial_timestamp: 13.951944166999965
+    triad: *id020
+  - dist:
+    - 2
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 15.15448183400008
+      key_pressed: d
+      response_timestamp: 15.248293084000125
+      trial_timestamp: 14.6518907090001
+    triad: *id021
+  - dist:
+    - 4
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 15.88804058400001
+      key_pressed: d
+      response_timestamp: 15.994079291999924
+      trial_timestamp: 15.385251124999968
+    triad: *id022
+  - dist:
+    - 4
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 16.619137292000005
+      key_pressed: d
+      response_timestamp: 16.717014584000026
+      trial_timestamp: 16.116497499999923
+    triad: *id023
+  - dist:
+    - 3
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 17.331299833999992
+      key_pressed: d
+      response_timestamp: 17.475807458999952
+      trial_timestamp: 16.82855137499996
+    triad: *id024
+  - dist:
+    - 3
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 18.090466459000027
+      key_pressed: d
+      response_timestamp: 18.22386941700006
+      trial_timestamp: 17.587695791999977
+    triad: *id025
+  - dist:
+    - 2
+    - 3
+    mirror: false
+    result:
+      choice_timestamp: 18.837973791999957
+      key_pressed: d
+      response_timestamp: 19.0479029170001
+      trial_timestamp: 18.33523404200014
+    triad: *id026
+  - dist:
+    - 2
+    - 3
+    mirror: true
+    result:
+      choice_timestamp: 19.66212270899996
+      key_pressed: d
+      response_timestamp: 19.786861458999965
+      trial_timestamp: 19.159328749999986
+    triad: *id027
+  - dist:
+    - 3
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 20.402311374999954
+      key_pressed: d
+      response_timestamp: 20.551955749999934
+      trial_timestamp: 19.89947645899997
+    triad: *id028
+  - dist:
+    - 3
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 21.1919855000001
+      key_pressed: d
+      response_timestamp: 21.338882541999965
+      trial_timestamp: 20.68926608400011
+    triad: *id029
+  - dist:
+    - 2
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 21.954623000000083
+      key_pressed: d
+      response_timestamp: 22.07187262499997
+      trial_timestamp: 21.451450042000033
+    triad: *id030
+  - dist:
+    - 3
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 22.686969249999947
+      key_pressed: d
+      response_timestamp: 22.70194395900012
+      trial_timestamp: 22.184283792000087
+    triad: *id031
+  - dist:
+    - 3
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 23.315483750000112
+      key_pressed: d
+      response_timestamp: 23.319043542000145
+      trial_timestamp: 22.812912208999933
+    triad: *id032
+  - dist:
+    - 3
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 23.958847500000047
+      key_pressed: d
+      response_timestamp: 24.143681792000052
+      trial_timestamp: 23.456126625000024
+    triad: *id033
+  - dist:
+    - 3
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 24.75841883399994
+      key_pressed: d
+      response_timestamp: 24.79577954199999
+      trial_timestamp: 24.25564374999999
+    triad: *id034
+  - dist:
+    - 2
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 25.457031959000005
+      key_pressed: d
+      response_timestamp: 25.597009209000134
+      trial_timestamp: 24.954253750000134
+    triad: *id035
+  - dist:
+    - 3
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 26.213012542000115
+      key_pressed: d
+      response_timestamp: 26.504031666999936
+      trial_timestamp: 25.710233875000085
+    triad: *id036
+  - dist:
+    - 3
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 27.119087875000105
+      key_pressed: d
+      response_timestamp: 27.12506683400011
+      trial_timestamp: 26.616135541999938
+    triad: *id037
+  - dist:
+    - 4
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 27.742255625000098
+      key_pressed: d
+      response_timestamp: 27.768736834000038
+      trial_timestamp: 27.23938079200002
+    triad: *id038
+  - dist:
+    - 3
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 28.38532383400002
+      key_pressed: d
+      response_timestamp: 28.49974787500014
+      trial_timestamp: 27.88260754199996
+    triad: *id039
+  - dist:
+    - 3
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 29.135818334000078
+      key_pressed: d
+      response_timestamp: 29.245578250000108
+      trial_timestamp: 28.633083209000006
+    triad: *id040
+  - dist:
+    - 3
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 29.862366834000113
+      key_pressed: d
+      response_timestamp: 30.016409374999967
+      trial_timestamp: 29.359598375000132
+    triad: *id041
+  - dist:
+    - 3
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 30.65990325000007
+      key_pressed: d
+      response_timestamp: 30.83054820899997
+      trial_timestamp: 30.15710191700009
+    triad: *id042
+  - dist:
+    - 2
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 31.446399917000008
+      key_pressed: d
+      response_timestamp: 31.563516584000126
+      trial_timestamp: 30.943553125000108
+    triad: *id043
+  - dist:
+    - 4
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 32.17948879200003
+      key_pressed: d
+      response_timestamp: 32.30756995900015
+      trial_timestamp: 31.676708250000047
+    triad: *id044
+  - dist:
+    - 2
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 32.92592387500008
+      key_pressed: d
+      response_timestamp: 32.931673333999925
+      trial_timestamp: 32.42318120899995
+    triad: *id045
+  - dist:
+    - 2
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 33.54832600000009
+      key_pressed: d
+      response_timestamp: 33.67961433400001
+      trial_timestamp: 33.04546449999998
+    triad: *id046
+  - dist:
+    - 2
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 34.29711999999995
+      key_pressed: d
+      response_timestamp: 34.45563137499994
+      trial_timestamp: 33.794391874999974
+    triad: *id047
+  - dist:
+    - 4
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 35.098370875
+      key_pressed: d
+      response_timestamp: 35.23538512499999
+      trial_timestamp: 34.5955758340001
+    triad: *id048
+  - dist:
+    - 3
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 35.85465483400003
+      key_pressed: d
+      response_timestamp: 35.96834200000012
+      trial_timestamp: 35.351936541999976
+    triad: *id049
+  - dist:
+    - 2
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 36.587385625000024
+      key_pressed: d
+      response_timestamp: 36.76342820900004
+      trial_timestamp: 36.084470624999994
+    triad: *id050
+  - dist:
+    - 2
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 37.382419750000054
+      key_pressed: d
+      response_timestamp: 37.51618191700004
+      trial_timestamp: 36.87963629199999
+    triad: *id051
+  - dist:
+    - 3
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 38.13347429200007
+      key_pressed: d
+      response_timestamp: 38.45038999999997
+      trial_timestamp: 37.63090250000005
+    triad: *id052
+  - dist:
+    - 3
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 39.069647499999974
+      key_pressed: d
+      response_timestamp: 39.235208333999935
+      trial_timestamp: 38.56702725000014
+    triad: *id053
+  - dist:
+    - 2
+    - 3
+    mirror: true
+    result:
+      choice_timestamp: 39.879965916999936
+      key_pressed: d
+      response_timestamp: 39.99729683400005
+      trial_timestamp: 39.37731170899997
+    triad: *id054
+  - dist:
+    - 2
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 40.615843625000025
+      key_pressed: d
+      response_timestamp: 40.789280792
+      trial_timestamp: 40.11312900000007
+    triad: *id055
+  - dist:
+    - 3
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 41.43245633400011
+      key_pressed: d
+      response_timestamp: 41.46937374999993
+      trial_timestamp: 40.92956308399994
+    triad: *id056
+  - dist:
+    - 4
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 42.08856791700009
+      key_pressed: d
+      response_timestamp: 42.15530029199999
+      trial_timestamp: 41.58582487500007
+    triad: *id057
+  - dist:
+    - 3
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 42.77594491700006
+      key_pressed: d
+      response_timestamp: 43.00235058399994
+      trial_timestamp: 42.273141459000044
+    triad: *id058
+  - dist:
+    - 2
+    - 3
+    mirror: false
+    result:
+      choice_timestamp: 43.62116366700002
+      key_pressed: d
+      response_timestamp: 43.75513312499993
+      trial_timestamp: 43.118415584000104
+    triad: *id059
+  - dist:
+    - 4
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 44.40063754200014
+      key_pressed: d
+      response_timestamp: 44.47421687500014
+      trial_timestamp: 43.89789091700004
+    triad: *id060
+  - dist:
+    - 2
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 45.11403004199997
+      key_pressed: d
+      response_timestamp: 45.168336542000134
+      trial_timestamp: 44.61111400000004
+    triad: *id061
+  - dist:
+    - 2
+    - 3
+    mirror: true
+    result:
+      choice_timestamp: 45.78835904200014
+      key_pressed: d
+      response_timestamp: 45.890281250000044
+      trial_timestamp: 45.28552779200004
+    triad: *id062
+  - dist:
+    - 3
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 46.50970174999998
+      key_pressed: d
+      response_timestamp: 47.0601596250001
+      trial_timestamp: 46.006959167000105
+    triad: *id063
+  - dist:
+    - 2
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 47.682065500000135
+      key_pressed: d
+      response_timestamp: 47.83105975000012
+      trial_timestamp: 47.17918275000011
+    triad: *id064
+  - dist:
+    - 2
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 48.47197058400002
+      key_pressed: d
+      response_timestamp: 48.640156209
+      trial_timestamp: 47.96910154200009
+    triad: *id065
+  - dist:
+    - 2
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 49.28944733399999
+      key_pressed: d
+      response_timestamp: 49.43305504199998
+      trial_timestamp: 48.78672704199994
+    triad: *id066
+  - dist:
+    - 3
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 50.05424462500014
+      key_pressed: d
+      response_timestamp: 50.16602679200014
+      trial_timestamp: 49.551628417000074
+    triad: *id067
+  - dist:
+    - 2
+    - 3
+    mirror: true
+    result:
+      choice_timestamp: 50.80734691700013
+      key_pressed: d
+      response_timestamp: 50.90325087500014
+      trial_timestamp: 50.30446137500007
+    triad: *id068
+  - dist:
+    - 4
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 51.52363533400012
+      key_pressed: d
+      response_timestamp: 51.63197008399993
+      trial_timestamp: 51.020760208999945
+    triad: *id069
+  - dist:
+    - 2
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 52.25244150000003
+      key_pressed: d
+      response_timestamp: 52.38503545899994
+      trial_timestamp: 51.74975108400008
+    triad: *id070
+  - dist:
+    - 2
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 53.00697508400003
+      key_pressed: d
+      response_timestamp: 53.11318425000013
+      trial_timestamp: 52.504185917000086
+    triad: *id071
+  - dist:
+    - 3
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 53.76254525000013
+      key_pressed: d
+      response_timestamp: 53.891946209000025
+      trial_timestamp: 53.259610374999966
+    triad: *id072
+  - dist:
+    - 2
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 54.542706167000006
+      key_pressed: d
+      response_timestamp: 54.65305962499997
+      trial_timestamp: 54.04001408399995
+    triad: *id073
+  - dist:
+    - 2
+    - 3
+    mirror: true
+    result:
+      choice_timestamp: 55.27992279199998
+      key_pressed: d
+      response_timestamp: 55.435871459000055
+      trial_timestamp: 54.777071334000084
+    triad: *id074
+  - dist:
+    - 4
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 56.059636959000045
+      key_pressed: d
+      response_timestamp: 56.150778500000115
+      trial_timestamp: 55.556823542000075
+    triad: *id075
+  - dist:
+    - 3
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 56.774452124999925
+      key_pressed: d
+      response_timestamp: 56.869887167000115
+      trial_timestamp: 56.27133970900013
+    triad: *id076
+  - dist:
+    - 3
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 57.51222416700011
+      key_pressed: d
+      response_timestamp: 57.60890133399994
+      trial_timestamp: 57.009302041999945
+    triad: *id077
+  - dist:
+    - 3
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 58.25580274999993
+      key_pressed: d
+      response_timestamp: 58.315714999999955
+      trial_timestamp: 57.75307124999995
+    triad: *id078
+  - dist:
+    - 2
+    - 3
+    mirror: true
+    result:
+      choice_timestamp: 58.96480783400011
+      key_pressed: d
+      response_timestamp: 59.122761958999945
+      trial_timestamp: 58.46202191700013
+    triad: *id079
+  - dist:
+    - 2
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 59.745006500000045
+      key_pressed: d
+      response_timestamp: 59.74868795900011
+      trial_timestamp: 59.24212195900009
+    triad: *id080
+  - dist:
+    - 4
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 60.37148216700007
+      key_pressed: d
+      response_timestamp: 60.525549959000045
+      trial_timestamp: 59.86865612500014
+    triad: *id081
+  - dist:
+    - 4
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 61.14995708400011
+      key_pressed: d
+      response_timestamp: 61.36069058399994
+      trial_timestamp: 60.64718783400008
+    triad: *id082
+  - dist:
+    - 2
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 61.985963874999925
+      key_pressed: d
+      response_timestamp: 62.00913958399997
+      trial_timestamp: 61.48335687500003
+    triad: *id083
+  - dist:
+    - 2
+    - 3
+    mirror: false
+    result:
+      choice_timestamp: 62.63214437500005
+      key_pressed: d
+      response_timestamp: 62.704806167000015
+      trial_timestamp: 62.12929404200008
+    triad: *id084
+  - dist:
+    - 2
+    - 3
+    mirror: true
+    result:
+      choice_timestamp: 63.355027000000064
+      key_pressed: d
+      response_timestamp: 63.434785749999946
+      trial_timestamp: 62.8523150420001
+    triad: *id085
+  - dist:
+    - 3
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 64.05960412500008
+      key_pressed: d
+      response_timestamp: 64.2855111670001
+      trial_timestamp: 63.55695154199998
+    triad: *id086
+  - dist:
+    - 3
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 64.93395824999993
+      key_pressed: d
+      response_timestamp: 64.98356391700008
+      trial_timestamp: 64.43104416699998
+    triad: *id087
+  - dist:
+    - 4
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 65.60706025000013
+      key_pressed: d
+      response_timestamp: 65.75352108400011
+      trial_timestamp: 65.10440491700001
+    triad: *id088
+  - dist:
+    - 3
+    - 5
+    mirror: false
+    result:
+      choice_timestamp: 66.37868304200015
+      key_pressed: d
+      response_timestamp: 66.42268695899998
+      trial_timestamp: 65.87596116700001
+    triad: *id089
+  - dist:
+    - 2
+    - 4
+    mirror: false
+    result:
+      choice_timestamp: 67.04661141700012
+      key_pressed: d
+      response_timestamp: 67.10888262499998
+      trial_timestamp: 66.54369425000004
+    triad: *id090
+  - dist:
+    - 4
+    - 5
+    mirror: true
+    result:
+      choice_timestamp: 67.73382100000003
+      key_pressed: d
+      response_timestamp: 67.78654804200005
+      trial_timestamp: 67.23104075000015
+    triad: *id091
+  - dist:
+    - 2
+    - 3
+    mirror: true
+    result:
+      choice_timestamp: 68.44002045899992
+      key_pressed: d
+      response_timestamp: 68.67631070900006
+      trial_timestamp: 67.93723454199994
+    triad: *id092
+  - dist:
+    - 2
+    - 3
+    mirror: true
+    result:
+      choice_timestamp: 69.30166095899995
+      key_pressed: d
+      response_timestamp: 69.48144845900015
+      trial_timestamp: 68.79882858400015
+    triad: *id093
+  - dist:
+    - 2
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 70.12729958399996
+      key_pressed: d
+      response_timestamp: 70.13462720899997
+      trial_timestamp: 69.62428079200004
+    triad: *id094
+  - dist:
+    - 2
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 70.78147220899996
+      key_pressed: d
+      response_timestamp: 70.84455783399994
+      trial_timestamp: 70.27857816699998
+    triad: *id095
+  - dist:
+    - 2
+    - 4
+    mirror: true
+    result:
+      choice_timestamp: 71.47174679199998
+      key_pressed: d
+      response_timestamp: 71.59949429200014
+      trial_timestamp: 70.96905808399993
+    triad: *id096
+  timing:
+    end_on_response: true
+    isi:
+    - 0
+    iti:
+    - 0
+    response_delay:
+    - 0.5
+    stim:
+    - 10
+  type: Judgement
