@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File “/Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/app/runner/runner.py”, line 114, in addTask
+  File “/Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/app/runner/runner.py”, line 813, in addTask
+wx._core.wxAssertionError: C++ assertion “”id >= 0 && (size_t)id < GetItemCount()”” failed at /Users/robind/projects/bb2/dist-osx-py38/build/ext/wxWidgets/src/generic/listctrl.cpp(3561) in SetItem(): invalid item index in SetItem
