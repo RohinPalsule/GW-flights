@@ -2,7 +2,7 @@ params:
     HRES: 1920
     VRES: 1080
     SCREENWIDTH: 88.6
-    IMAGE_SIZE_H: 0.5
+    IMAGE_SIZE_H: 0.6
     IMAGE_OFFSET: 0.6
     BUTTON_1: a
     BUTTON_2: s
@@ -15,18 +15,18 @@ params:
     TEXTBOX_WIDTH: 1.5
 graph:
     images:
-        - Alliance.png
-        - Boulder.png
-        - Cornwall.png
-        - Custer.png
-        - DelawareCity.png
-        - Medora.png
-        - Newport.png
-        - ParkCity.png
-        - Racine.png
-        - Sitka.png
-        - WestPalmBeach.png
-        - Yukon.png
+        - Alliance.jpg
+        - Boulder.jpg
+        - Cornwall.jpg
+        - Custer.jpg
+        - DelawareCity.jpg
+        - Medora.jpg
+        - Newport.jpg
+        - ParkCity.jpg
+        - Racine.jpg
+        - Sitka.jpg
+        - WestPalmBeach.jpg
+        - Yukon.jpg
     edges:
         - [1,2]
         - [2,4]
@@ -75,70 +75,66 @@ phases:
                 pos: [0.0, 0.0]
             button: scanner
           - content:
-           #   - text: "A good strategy to remember the pairs is to try and come up with a story or image that connects the two objects. For example, if you saw the following pair of objects:"
-            #    pos: [0.0, 0.6]
-              - image: instructions.png
-                pos: [0, 0]
-              #- image: study_instrs_2.jpg
-               # pos: [0.5, 0.2]
-              #- text: "you may imagine holding the briefcase while wearing the red robe, or you can come up with a story in which you have to pack the robe in the briefcase for a business trip.\nLet’s practice this strategy, which you will use throughout the experiment. For each pair, try to come up with an image or story in your head that connects the two objects. You will have 1 second for each pair, so please work quickly. The story or image does not have to make sense."
-               # pos: [0.0, -0.4]
+              - text: "A good strategy to remember the pairs is to try and come up with a story or image that connects the two objects. For example, if you saw the following pair of objects:"
+                pos: [0.0, 0.6]
+              - image: LasVegas.png
+                pos: [-0.5, 0.2]
+              - image: Seattle.png
+                pos: [0.5, 0.2]
+              - text: "you may imagine a flight from seeing the Sphere to the Space Needle.\nLet’s practice this strategy, which you will use throughout the experiment. For each pair, try to come up with an image or story in your head that connects the two objects. You will have 1 second for each pair, so please work quickly. The story or image does not have to make sense."
+                pos: [0.0, -0.4]
             button: scanner
-        - content:
-              - text: "You will see a series of these city-pairs and will try to learn as many of them as possible to best advise your future clients for travel. After studying the information, you will be asked to help your clients book travel to various destinations via AerBorn Airlines."
-                pos: [0.0, 0.0]
-            button: scanner
-      #params:
-       #   num_breaks: 0
-        #  get_ready: true
-         # idle_warning: 1
-          #idle_text: "Please respond within 1 second of the cities appearing. If you continue to miss trials, the experiment will end early and you will be ineligble to continue."
-      #timing:
+      params:
+          num_breaks: 0
+          get_ready: true
+          idle_warning: 1
+          idle_text: "Please respond within 1 second of the objects appearing. If you continue to miss trials, the experiment will end early and you will be ineligble to continue."
+      timing:
           #total time stimulus is on the screen
-          #stim: [10]
+          stim: [10]
           #blank time after stimulus but response is still allowed
-          #yisi: [0]
+          isi: [0]
           #blank time after response is no longer allowed
           #iti: [1,4,4,7]
-          #iti: [0]
+          iti: [0]
           #time from stimulus appearing to response being accepted
-          #response_delay: [1.5]
+          response_delay: [1.5]
           #whether to end stimulus as soon as response is received
-          #end_on_response: true
-    #  sequence:
-      # - type: example
-      #   img0: object_068.jpg
-      #   img1: object_029.jpg
-      #   after: "Were you able to come up with a story or image connecting these items? Press '#BUTTON_1' if so, or '#BUTTON_2' if not."
-      # - type: result
-      #   button_1: "Great! Please continue to come up with a story or image for each trial.\n\nFor example, you might imagine kicking the fire hydrant while wearing the boot."
-      #   button_2: "Please try to come up with a story or image for each trial.\n\nFor example, you might imagine kicking the fire hydrant while wearing the boot."
-      #   after: "Press '#BUTTON_1' to continue."
-      # - type: example
-      #   img0: object_175.jpg
-      #   img1: object_102.jpg
-      #   after: "Were you able to come up with a story or image connecting these items? Press '#BUTTON_1' if so, or '#BUTTON_2' if not."
-      # - type: result
-      #   button_1: "Great! Please continue to come up with a story or image for each trial.\n\nFor example, you might imagine waking up to the alarm clock and grabbing the umbrella on your way out of your house."
-      #   button_2: "Please try to come up with a story or image for each trial.\n\nFor example, you might imagine waking up to the alarm clock and grabbing the umbrella on your way out of your house."
-      #   after: "Press '#BUTTON_1' to continue."
-      # - type: example
-      #   img0: object_229.jpg
-      #   img1: object_250.jpg
-      #   after: "Were you able to come up with a story or image connecting these items? Press '#BUTTON_1' if so, or '#BUTTON_2' if not."
-      # - type: result
-      #   button_1: "Great! Please continue to come up with a story or image for each trial.\n\nFor example, you might imagine trying to break open the piggy bank with the traffic cone."
-      #   button_2: "Please try to come up with a story or image for each trial.\n\nFor example, you might imagine trying to break open the piggy bank with the traffic cone."
-      #   after: "Press '#BUTTON_1' to continue."
+          end_on_response: true
+      sequence:
+      - type: example
+        img0: LosAngeles.png
+        img1: LasVegas.png
+        after: "Were you able to come up with a story or image connecting these items? Press '#BUTTON_1' if so, or '#BUTTON_2' if not."
+      - type: result
+        button_1: "Great! Please continue to come up with a story or image for each trial.\n\nFor example, you might imagine flying from LAX to the Strip in Vegas."
+        button_2: "Please try to come up with a story or image for each trial.\n\nFor example, you might imagine flying from LAX to the Strip in Vegas."
+        after: "Press '#BUTTON_1' to continue."
+      - type: example
+        img0: Detroit.png
+        img1: Pennsylvania.png
+        after: "Were you able to come up with a story or image connecting these items? Press '#BUTTON_1' if so, or '#BUTTON_2' if not."
+      - type: result
+        button_1: "Great! Please continue to come up with a story or image for each trial.\n\nFor example, you might imagine flying from Detroit to see the Liberty Bell."
+        button_2: "Please try to come up with a story or image for each trial.\n\nFor example, you might imagine flying from Detroit to see the Liberty Bell."
+        after: "Press '#BUTTON_1' to continue."
+      - type: example
+        img0: NewYork.png
+        img1: StLouis.png
+        after: "Were you able to come up with a story or image connecting these items? Press '#BUTTON_1' if so, or '#BUTTON_2' if not."
+      - type: result
+        button_1: "Great! Please continue to come up with a story or image for each trial.\n\nFor example, you might imagine going from the Statue of Liberty to the Gateway to the West."
+        button_2: "Please try to come up with a story or image for each trial.\n\nFor example, you might imagine going from the Statue of Liberty to the Gateway to the West."
+        after: "Press '#BUTTON_1' to continue."
     - type: StudyPractice
       instrs:
           - content:
               - text: "While you are observing and memorizing each of the pairs, note that some of the images will appear rotated. For each trial, press '#BUTTON_1' if you see a rotated image, and '#BUTTON_2' if you see an upright image:"
                 pos: [0.0, 0.5]
-              - image: LosAngeles.jpg
+              - image: LosAngeles.png
                 pos: [-0.5, 0.0]
                 rot: 45
-              - image: LosAngeles.jpg
+              - image: Seattle.png
                 pos: [0.5, 0.0]
               - text: "This is a rotated image.\nPress '#BUTTON_1'."
                 pos: [-0.0, -0.5]
@@ -152,7 +148,7 @@ phases:
       conclusion:
           failed:
               content:
-              - text: "You got #PRACTICE_SCORE out of 10 correct.\nYou need to get at least 6 correct to be eligible for the next portion. Would you like to practice one more time to qualify for the next portion?"
+              - text: "You got #PRACTICE_SCORE out of 10 correct.\nYou need to get at least 6 correct to be eligible for the next portion. Would you like to practice one more time to qualify for the next portion?"
                 pos: [0.0, 0.0]
               button: scanner
               ret: repeat
@@ -164,7 +160,7 @@ phases:
               ret: quit
           passed:
               content:
-              - text: "You got #PRACTICE_SCORE out of 10 correct.\nYou may also have noticed that even though you were pressing keys, the task did not respond to your button presses. Do not worry--your responses are still being recorded, so be sure to respond to every trial within the first second of the objects appearing. Again, missing too many responses will cause the experiment to end early and you will fail to receive the maximum possible compensation for this task."
+              - text: "You got #PRACTICE_SCORE out of 10 correct.\nYou may also have noticed that even though you were pressing keys, the task did not respond to your button presses. Do not worry--your responses are still being recorded, so be sure to respond to every trial within the first second of the objects appearing. Again, missing too many responses will cause the experiment to end early and you will fail to receive the maximum possible compensation for this task."
                 pos: [0.0, 0.0]
               button: scanner
       params:
@@ -177,14 +173,14 @@ phases:
           idle_text: "Please respond within 1 second of the objects appearing. If you continue to miss trials, the experiment will end early and you will be ineligble to continue."
           correct_req: 0.6
           images:
-            - LosAngeles.jpg
-            - NewYork.jpg
-            - Detroit.jpg
-            - StLouis.jpg
-            - Austin.jpg
-            - Pennsylvania.jpg
-            - Seattle.jpg
-            - LasVegas.jpg
+            - LosAngeles.png
+            - NewYork.png
+            - Detroit.png
+            - StLouis.png
+            - Austin.png
+            - Pennsylvania.png
+            - Seattle.png
+            - LasVegas.png
       timing:
           #total time stimulus is on the screen
           stim: [1.5]
@@ -194,13 +190,13 @@ phases:
           #iti: [1,4,4,7]
           iti: [2]
           #time from stimulus appearing to response being accepted
-          response_delay: [0.3]
+          response_delay: [0.2]
           #whether to end stimulus as soon as response is received
           end_on_response: false
     - type: Study
       instrs:
           - content:
-              - text: "You will now begin the task. Remember that you will have to:\n•Use the '#BUTTON_1' and '#BUTTON_2' keys to respond to rotated and upright images within 1 second of the objects appearing on the screen.\n•Memorize each pair of objects you encounter using the story/image strategy you practiced earlier."
+              - text: "You will now begin the task. Remember that you will have to:\n•Use the '#BUTTON_1' and '#BUTTON_2' keys to respond to rotated and upright cities within 1 second of the objects appearing on the screen.\n•Memorize each pair of cities you encounter using the story/image strategy you practiced earlier."
                 pos: [0.0, 0.0]
             button: scanner
       params:
@@ -231,8 +227,8 @@ phases:
     - type: Direct
       instrs:
           - content:
-              - text: "Now that you have studied the various flights offered by AerBorn Airlines, you will be tested on your knowledge of what you just studied. On each trial, you will see a location and will have to select which city you can fly nonstop to via AerBorn Airlines using '#BUTTON_1' for the left city and '#BUTTON_2' for the right one. You will see the starting location on top, and 3 city options below it. Please select only the city to which AerBorn Airlines flies directly (nonstop)."
-                pos: [0.0, 0.5]
+              - text: "For the next part of this experiment, you will see a city that you studied earlier, with 3 objects below it. Use the '#BUTTON_1', '#BUTTON_2', and '#BUTTON_3' buttons on your keyboard to select the object that was directly paired with the top object during the study phase. Use '#BUTTON_1' to select the left city, '#BUTTON_2' to select the middle city, and '#BUTTON_3' to select the right city."
+                pos: [0.0, 0.0]
             button: scanner
       params:
           num_breaks: 0
@@ -254,8 +250,8 @@ phases:
     - type: Judgement
       instrs:
           - content:
-              - text: "In this next portion, you will be meeting with various clients who are looking for recommendations for travel. On each trial, you will see 3 locations:"
-                pos: [0.0, 0.5]
+              - text: "You may have noticed that the city pairs you studied in the study phase were connected to one another such that one city was often paired with more than just one other object.\nIn this phase, you will be presented with three objects on the screen. Your task is to choose which one of the side cities, left or right, you think can get to the middle city based on how few layovers the client will need to take."
+                pos: [0.0, 0.0]
             button: scanner
           - content:
               - text: "For example, if you studied the following pairs:"
@@ -298,4 +294,3 @@ phases:
               - text: "Please inform the experimenter that you have completed this portion of the experiment.\nSubject ID: #SUBJECT_ID"
                 pos: [0.0, 0.0]
               button: none
-
